@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market Sentiment Visualization</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/date-fns@2.30.0/index.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@2.0.1/dist/chartjs-plugin-zoom.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-top">
+                <div>
+                    <h1>Market Sentiment Dashboard</h1>
+                    <p class="subtitle">S&P 500 • NASDAQ • Dow Jones | Analysis Since 2022</p>
+                </div>
+                <div class="view-controls">
+                    <button class="btn btn-secondary" id="refreshBtn" onclick="refreshData()">Refresh</button>
+                </div>
+            </div>
+            <div class="last-update" id="lastUpdate">Loading...</div>
+        </header>
+
+        <!-- Key Metrics Cards -->
+        <section class="metrics-grid">
+            <div class="metric-card">
+                <h3>Market Sentiment Index</h3>
+                <div class="metric-value" id="sentimentValue">--</div>
+                <div class="metric-label" id="sentimentLabel">--</div>
+            </div>
+            <div class="metric-card">
+                <h3>S&P 500</h3>
+                <div class="metric-value" id="sp500Value">--</div>
+                <div class="metric-change" id="sp500Change">--</div>
+            </div>
+            <div class="metric-card">
+                <h3>NASDAQ</h3>
+                <div class="metric-value" id="nasdaqValue">--</div>
+                <div class="metric-change" id="nasdaqChange">--</div>
+            </div>
+            <div class="metric-card">
+                <h3>Dow Jones</h3>
+                <div class="metric-value" id="dowValue">--</div>
+                <div class="metric-change" id="dowChange">--</div>
+            </div>
+        </section>
+
+        <!-- Calendar Section -->
+        <section class="calendar-section">
+            <div class="chart-container full-width">
+                <h2>Market Sentiment Calendar</h2>
+                <p class="chart-description">Click on any trading day to see details, headline, and summary</p>
+                <div id="calendarContainer"></div>
+            </div>
+        </section>
+
+        <!-- Charts Section -->
+        <section class="charts-section">
+            <!-- Market Indices Comparison Chart -->
+            <div class="chart-container full-width">
+                <h2>Market Performance Since 2022</h2>
+                <p class="chart-description">Normalized percentage change from January 2022 baseline</p>
+                <div class="chart-wrapper">
+                    <canvas id="indicesChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Market Sentiment Trend Chart -->
+            <div class="chart-container full-width">
+                <h2>Market Sentiment Index</h2>
+                <p class="chart-description">Sentiment score calculated from price movements, trends, and volatility</p>
+                <div class="chart-wrapper">
+                    <canvas id="sentimentTrendChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Daily Changes Comparison -->
+            <div class="chart-container">
+                <h2>Today's Performance</h2>
+                <div class="chart-wrapper">
+                    <canvas id="dailyChangesChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Individual Index Charts -->
+            <div class="chart-container">
+                <h2>S&P 500</h2>
+                <div class="chart-wrapper">
+                    <canvas id="sp500Chart"></canvas>
+                </div>
+            </div>
+
+            <div class="chart-container">
+                <h2>NASDAQ</h2>
+                <div class="chart-wrapper">
+                    <canvas id="nasdaqChart"></canvas>
+                </div>
+            </div>
+
+            <div class="chart-container">
+                <h2>Dow Jones</h2>
+                <div class="chart-wrapper">
+                    <canvas id="dowChart"></canvas>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Day Details Modal -->
+    <div id="dayDetailsModal" class="modal">
+        <div class="modal-content">
+            <div id="dayDetailsContent"></div>
+        </div>
+    </div>
+
+    <script src="calendar.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
+

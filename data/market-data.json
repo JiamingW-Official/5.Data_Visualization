@@ -1,0 +1,45 @@
+{
+  "timestamp": "2025-12-12T07:22:32.900Z",
+  "date": "2025-12-11",
+  "sentiment": {
+    "score": -2.84,
+    "label": "Neutral",
+    "indices": {
+      "sp500": {
+        "score": -2.92,
+        "label": "Neutral",
+        "current": 6901,
+        "change": 0.21
+      },
+      "nasdaq": {
+        "score": -5.12,
+        "label": "Neutral",
+        "current": 23593.859375,
+        "change": -0.25
+      },
+      "dow": {
+        "score": 0.47,
+        "label": "Neutral",
+        "current": 48704.01171875,
+        "change": 1.34
+      }
+    }
+  },
+  "indices": {
+    "sp500": {
+      "current": 6901,
+      "change": 0.21,
+      "changePercent": 0.21
+    },
+    "nasdaq": {
+      "current": 23593.859375,
+      "change": -0.25,
+      "changePercent": -0.25
+    },
+    "dow": {
+      "current": 48704.01171875,
+      "change": 1.34,
+      "changePercent": 1.34
+    }
+  }
+}
