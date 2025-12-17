@@ -1,32 +1,38 @@
 # Market Sentiment Visualization Dashboard
 
-A comprehensive market sentiment visualization tool built with Chart.js, featuring real-time data visualization for VIX, CNN Fear & Greed Index, market volatility, technical indicators, and ML-powered sentiment analysis.
+A comprehensive market sentiment visualization tool built with Chart.js, featuring real-time data visualization for S&P 500, NASDAQ, Dow Jones, market sentiment analysis, and an interactive calendar view.
+
+🌐 **Live Site**: [View on GitHub Pages](https://JiamingW-Official.github.io/5.Data_Visualization/)
 
 ## Features
 
+- **Market Sentiment Calendar**
+  - Interactive calendar view showing sentiment for each trading day
+  - Color-coded days (Green = Bullish, Red = Bearish, Gray = Neutral)
+  - Click any day to see detailed metrics, headline, and summary
+  - Algorithm-generated daily headlines and summaries
+
 - **Real-time Market Data Visualization**
-  - VIX (Volatility Index) trends
-  - CNN Fear & Greed Index
-  - Market volatility indicators
-  - Technical indicators (RSI, MACD, Bollinger Bands, Moving Averages)
-  - Sentiment analysis from market news
+  - S&P 500, NASDAQ, and Dow Jones trends since 2022
+  - Custom Market Sentiment Index calculation
+  - Daily performance comparisons
+  - Historical data visualization
 
 - **Multiple Chart Types**
-  - Line charts for trends
-  - Bar charts for comparisons
-  - Doughnut charts for distributions
+  - Interactive line charts with zoom and pan
+  - Bar charts for daily comparisons
   - Time-series visualizations
+  - Clickable legends to show/hide datasets
 
-- **Machine Learning Sentiment Analysis**
-  - Web crawling for market news
-  - Natural language processing
-  - Sentiment classification (positive/negative/neutral)
-  - Aggregate sentiment scoring
+- **Custom Sentiment Algorithm**
+  - Calculates sentiment from price movements, trends, volume, and volatility
+  - Generates daily headlines based on market performance
+  - Creates detailed summaries explaining market sentiment
 
-- **Automated Data Collection**
-  - n8n workflow integration
-  - Scheduled data updates
-  - Webhook support for external triggers
+- **GitHub Pages Ready**
+  - Fully static site - no backend required
+  - Automatic daily data updates via GitHub Actions
+  - Pre-fetched data stored in JSON files
 
 ## Project Structure
 
@@ -49,11 +55,30 @@ A comprehensive market sentiment visualization tool built with Chart.js, featuri
 └── n8n-workflow.json        # n8n workflow configuration
 ```
 
-## Installation
+## Quick Start
+
+### For GitHub Pages (Recommended)
+
+The site is automatically deployed to GitHub Pages. Just:
+
+1. **Enable GitHub Pages** in your repository settings:
+   - Go to Settings → Pages
+   - Source: Select "GitHub Actions"
+   
+2. **Push to main branch** - The workflow will automatically:
+   - Fetch market data
+   - Build the site
+   - Deploy to GitHub Pages
+
+3. **View your site** at: `https://JiamingW-Official.github.io/5.Data_Visualization/`
+
+See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed deployment instructions.
+
+### For Local Development
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/JiamingW-Official/5.Data_Visualization.git
    cd 5.Data_Visualization
    ```
 
@@ -62,16 +87,18 @@ A comprehensive market sentiment visualization tool built with Chart.js, featuri
    npm install
    ```
 
-3. **Initialize data files**
-   The data directory and initial JSON files are already created. If needed, you can regenerate them by running:
+3. **Fetch market data**
    ```bash
-   node scripts/fetchMarketData.js
+   npm run fetch-data
    ```
 
-4. **Train the sentiment model (optional)**
+4. **Start local server (optional)**
    ```bash
-   npm run train-model
+   npm start
+   # Visit http://localhost:3000
    ```
+
+   Or simply open `public/index.html` in your browser (for static testing)
 
 ## Usage
 

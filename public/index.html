@@ -8,7 +8,6 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/date-fns@2.30.0/index.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@2.0.1/dist/chartjs-plugin-zoom.min.js"></script>
 </head>
 <body>
     <div class="container">
@@ -16,11 +15,9 @@
             <div class="header-top">
                 <div>
                     <h1>Market Sentiment Dashboard</h1>
-                    <p class="subtitle">S&P 500 • NASDAQ • Dow Jones | Analysis Since 2022</p>
+                    <p class="subtitle">S&P 500 • NASDAQ • Dow Jones</p>
                 </div>
-                <div class="view-controls">
-                    <button class="btn btn-secondary" id="refreshBtn" onclick="refreshData()">Refresh</button>
-                </div>
+                <button class="btn" id="refreshBtn" onclick="refreshData()">Refresh</button>
             </div>
             <div class="last-update" id="lastUpdate">Loading...</div>
         </header>
@@ -51,9 +48,9 @@
 
         <!-- Calendar Section -->
         <section class="calendar-section">
-            <div class="chart-container full-width">
+            <div class="chart-container">
                 <h2>Market Sentiment Calendar</h2>
-                <p class="chart-description">Click on any trading day to see details, headline, and summary</p>
+                <p class="chart-description">Click any day for details</p>
                 <div id="calendarContainer"></div>
             </div>
         </section>
@@ -61,18 +58,16 @@
         <!-- Charts Section -->
         <section class="charts-section">
             <!-- Market Indices Comparison Chart -->
-            <div class="chart-container full-width">
-                <h2>Market Performance Since 2022</h2>
-                <p class="chart-description">Normalized percentage change from January 2022 baseline</p>
+            <div class="chart-container">
+                <h2>Market Performance</h2>
                 <div class="chart-wrapper">
                     <canvas id="indicesChart"></canvas>
                 </div>
             </div>
 
             <!-- Market Sentiment Trend Chart -->
-            <div class="chart-container full-width">
-                <h2>Market Sentiment Index</h2>
-                <p class="chart-description">Sentiment score calculated from price movements, trends, and volatility</p>
+            <div class="chart-container">
+                <h2>Sentiment Index</h2>
                 <div class="chart-wrapper">
                     <canvas id="sentimentTrendChart"></canvas>
                 </div>
@@ -80,7 +75,7 @@
 
             <!-- Daily Changes Comparison -->
             <div class="chart-container">
-                <h2>Today's Performance</h2>
+                <h2>Today's Change</h2>
                 <div class="chart-wrapper">
                     <canvas id="dailyChangesChart"></canvas>
                 </div>

@@ -1,191 +1,130 @@
-// Calendar view for market sentiment
+// Simple calendar
 let calendarData = [];
 
-/**
- * Initialize calendar view
- */
-function initCalendar(historicalData) {
-    calendarData = historicalData;
+function initCalendar(data) {
+    calendarData = data;
     renderCalendar();
 }
 
-/**
- * Render calendar for current month/year
- */
 function renderCalendar(year = null, month = null) {
     const now = new Date();
-    const currentYear = year || now.getFullYear();
-    const currentMonth = month || now.getMonth();
+    const y = year || now.getFullYear();
+    const m = month || now.getMonth();
     
-    const firstDay = new Date(currentYear, currentMonth, 1);
-    const lastDay = new Date(currentYear, currentMonth + 1, 0);
-    const daysInMonth = lastDay.getDate();
-    const startingDayOfWeek = firstDay.getDay();
+    const firstDay = new Date(y, m, 1).getDay();
+    const daysInMonth = new Date(y, m + 1, 0).getDate();
+    const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
     
-    const calendarContainer = document.getElementById('calendarContainer');
-    if (!calendarContainer) return;
-    
-    const monthNames = ['January', 'February', 'March', 'April', 'May', 'June',
-        'July', 'August', 'September', 'October', 'November', 'December'];
+    const container = document.getElementById('calendarContainer');
+    if (!container) return;
     
     let html = `
         <div class="calendar-header">
-            <button class="calendar-nav-btn" onclick="changeMonth(-1)">‹</button>
-            <h3>${monthNames[currentMonth]} ${currentYear}</h3>
-            <button class="calendar-nav-btn" onclick="changeMonth(1)">›</button>
+            <button onclick="changeMonth(-1)">‹</button>
+            <h3>${monthNames[m]} ${y}</h3>
+            <button onclick="changeMonth(1)">›</button>
         </div>
         <div class="calendar-grid">
-            <div class="calendar-weekday">Sun</div>
-            <div class="calendar-weekday">Mon</div>
-            <div class="calendar-weekday">Tue</div>
-            <div class="calendar-weekday">Wed</div>
-            <div class="calendar-weekday">Thu</div>
-            <div class="calendar-weekday">Fri</div>
-            <div class="calendar-weekday">Sat</div>
+            <div class="weekday">Sun</div><div class="weekday">Mon</div><div class="weekday">Tue</div>
+            <div class="weekday">Wed</div><div class="weekday">Thu</div><div class="weekday">Fri</div><div class="weekday">Sat</div>
     `;
     
-    // Empty cells for days before month starts
-    for (let i = 0; i < startingDayOfWeek; i++) {
-        html += '<div class="calendar-day empty"></div>';
+    for (let i = 0; i < firstDay; i++) {
+        html += '<div class="day empty"></div>';
     }
     
-    // Days of the month
     for (let day = 1; day <= daysInMonth; day++) {
-        const dateStr = `${currentYear}-${String(currentMonth + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+        const dateStr = `${y}-${String(m + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
         const dayData = calendarData.find(d => d.date === dateStr);
         
-        let sentimentClass = 'neutral';
-        let sentimentValue = '';
-        let sentimentLabel = '';
+        let cls = 'day';
+        let sentiment = '';
         
         if (dayData) {
-            const sentiment = dayData.sentiment || 0;
-            if (sentiment > 20) {
-                sentimentClass = 'bullish';
-                sentimentLabel = 'Bullish';
-            } else if (sentiment < -20) {
-                sentimentClass = 'bearish';
-                sentimentLabel = 'Bearish';
-            } else {
-                sentimentLabel = 'Neutral';
-            }
-            sentimentValue = sentiment.toFixed(0);
+            cls += ' has-data';
+            const s = dayData.sentiment || 0;
+            if (s > 20) cls += ' bullish';
+            else if (s < -20) cls += ' bearish';
+            else cls += ' neutral';
+            sentiment = s.toFixed(0);
         }
         
-        const isWeekend = (startingDayOfWeek + day - 1) % 7 === 0 || 
-                         (startingDayOfWeek + day - 1) % 7 === 6;
-        
         html += `
-            <div class="calendar-day ${sentimentClass} ${isWeekend ? 'weekend' : ''} ${dayData ? 'has-data' : ''}" 
-                 ${dayData ? `onclick="showDayDetails('${dateStr}')"` : ''}
-                 ${dayData ? `title="${dayData.headline || ''}"` : ''}>
-                <div class="day-number">${day}</div>
-                ${dayData ? `<div class="day-sentiment">${sentimentValue}</div>` : ''}
+            <div class="${cls}" ${dayData ? `onclick="showDay('${dateStr}')"` : ''}>
+                <div class="day-num">${day}</div>
+                ${sentiment ? `<div class="day-sentiment">${sentiment}</div>` : ''}
             </div>
         `;
     }
     
     html += '</div>';
-    calendarContainer.innerHTML = html;
+    container.innerHTML = html;
     
-    // Store current view
-    window.currentCalendarYear = currentYear;
-    window.currentCalendarMonth = currentMonth;
+    window.currentYear = y;
+    window.currentMonth = m;
 }
 
-/**
- * Change month
- */
-function changeMonth(direction) {
-    if (!window.currentCalendarYear) {
+function changeMonth(dir) {
+    if (!window.currentYear) {
         const now = new Date();
-        window.currentCalendarYear = now.getFullYear();
-        window.currentCalendarMonth = now.getMonth();
+        window.currentYear = now.getFullYear();
+        window.currentMonth = now.getMonth();
     }
     
-    window.currentCalendarMonth += direction;
-    
-    if (window.currentCalendarMonth < 0) {
-        window.currentCalendarMonth = 11;
-        window.currentCalendarYear--;
-    } else if (window.currentCalendarMonth > 11) {
-        window.currentCalendarMonth = 0;
-        window.currentCalendarYear++;
+    window.currentMonth += dir;
+    if (window.currentMonth < 0) {
+        window.currentMonth = 11;
+        window.currentYear--;
+    } else if (window.currentMonth > 11) {
+        window.currentMonth = 0;
+        window.currentYear++;
     }
     
-    renderCalendar(window.currentCalendarYear, window.currentCalendarMonth);
+    renderCalendar(window.currentYear, window.currentMonth);
 }
 
-/**
- * Show day details
- */
-function showDayDetails(dateStr) {
+function showDay(dateStr) {
     const dayData = calendarData.find(d => d.date === dateStr);
     if (!dayData) return;
     
     const modal = document.getElementById('dayDetailsModal');
-    const modalContent = document.getElementById('dayDetailsContent');
-    
-    if (!modal || !modalContent) return;
+    const content = document.getElementById('dayDetailsContent');
+    if (!modal || !content) return;
     
     const date = new Date(dateStr);
-    const formattedDate = date.toLocaleDateString('en-US', { 
-        weekday: 'long', 
-        year: 'numeric', 
-        month: 'long', 
-        day: 'numeric' 
-    });
+    const formatted = date.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+    const s = dayData.sentiment;
+    const cls = s > 20 ? 'bullish' : s < -20 ? 'bearish' : 'neutral';
     
-    const sentimentClass = dayData.sentiment > 20 ? 'bullish' : 
-                          dayData.sentiment < -20 ? 'bearish' : 'neutral';
-    
-    modalContent.innerHTML = `
+    content.innerHTML = `
         <div class="modal-header">
-            <h2>${formattedDate}</h2>
-            <button class="modal-close" onclick="closeDayDetails()">×</button>
+            <h2>${formatted}</h2>
+            <button onclick="closeDay()">×</button>
         </div>
         <div class="modal-body">
             <div class="day-metrics">
-                <div class="day-metric">
-                    <label>Market Sentiment</label>
-                    <div class="metric-value ${sentimentClass}">
-                        ${dayData.sentiment.toFixed(1)} 
-                        <span class="metric-label">${dayData.sentimentLabel || 'Neutral'}</span>
-                    </div>
+                <div class="metric">
+                    <label>Sentiment</label>
+                    <div class="value ${cls}">${s.toFixed(1)} <span>${dayData.sentimentLabel || 'Neutral'}</span></div>
                 </div>
-                <div class="day-metric">
+                <div class="metric">
                     <label>S&P 500</label>
-                    <div class="metric-value">
-                        ${dayData.sp500.toLocaleString('en-US', {maximumFractionDigits: 0})}
-                        <span class="metric-change ${dayData.changes?.sp500 >= 0 ? 'positive' : 'negative'}">
-                            ${dayData.changes?.sp500 >= 0 ? '+' : ''}${dayData.changes?.sp500?.toFixed(2)}%
-                        </span>
-                    </div>
+                    <div class="value">${dayData.sp500.toLocaleString()} <span class="change ${dayData.changes?.sp500 >= 0 ? 'pos' : 'neg'}">${dayData.changes?.sp500 >= 0 ? '+' : ''}${dayData.changes?.sp500?.toFixed(2)}%</span></div>
                 </div>
-                <div class="day-metric">
+                <div class="metric">
                     <label>NASDAQ</label>
-                    <div class="metric-value">
-                        ${dayData.nasdaq.toLocaleString('en-US', {maximumFractionDigits: 0})}
-                        <span class="metric-change ${dayData.changes?.nasdaq >= 0 ? 'positive' : 'negative'}">
-                            ${dayData.changes?.nasdaq >= 0 ? '+' : ''}${dayData.changes?.nasdaq?.toFixed(2)}%
-                        </span>
-                    </div>
+                    <div class="value">${dayData.nasdaq.toLocaleString()} <span class="change ${dayData.changes?.nasdaq >= 0 ? 'pos' : 'neg'}">${dayData.changes?.nasdaq >= 0 ? '+' : ''}${dayData.changes?.nasdaq?.toFixed(2)}%</span></div>
                 </div>
-                <div class="day-metric">
+                <div class="metric">
                     <label>Dow Jones</label>
-                    <div class="metric-value">
-                        ${dayData.dow.toLocaleString('en-US', {maximumFractionDigits: 0})}
-                        <span class="metric-change ${dayData.changes?.dow >= 0 ? 'positive' : 'negative'}">
-                            ${dayData.changes?.dow >= 0 ? '+' : ''}${dayData.changes?.dow?.toFixed(2)}%
-                        </span>
-                    </div>
+                    <div class="value">${dayData.dow.toLocaleString()} <span class="change ${dayData.changes?.dow >= 0 ? 'pos' : 'neg'}">${dayData.changes?.dow >= 0 ? '+' : ''}${dayData.changes?.dow?.toFixed(2)}%</span></div>
                 </div>
             </div>
             <div class="day-headline">
                 <h3>${dayData.headline || 'Market Update'}</h3>
             </div>
             <div class="day-summary">
-                <p>${dayData.summary || 'No summary available for this day.'}</p>
+                <p>${dayData.summary || 'No summary available.'}</p>
             </div>
         </div>
     `;
@@ -193,21 +132,12 @@ function showDayDetails(dateStr) {
     modal.style.display = 'flex';
 }
 
-/**
- * Close day details modal
- */
-function closeDayDetails() {
+function closeDay() {
     const modal = document.getElementById('dayDetailsModal');
-    if (modal) {
-        modal.style.display = 'none';
-    }
+    if (modal) modal.style.display = 'none';
 }
 
-// Make functions globally available
 window.changeMonth = changeMonth;
-window.showDayDetails = showDayDetails;
-window.closeDayDetails = closeDayDetails;
+window.showDay = showDay;
+window.closeDay = closeDay;
 window.initCalendar = initCalendar;
-
-
-
