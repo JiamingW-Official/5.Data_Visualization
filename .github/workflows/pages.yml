@@ -22,7 +22,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
       
       - name: Setup Node.js
@@ -41,34 +41,17 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
       
-      - name: Copy files for deployment
+      - name: Build site
         run: |
-          # Create deployment directory
           mkdir -p _site
-          
-          # Copy public files (this includes index.html)
           cp -r public/* _site/
-          
-          # Copy data files
           mkdir -p _site/data
           cp -r data/*.json _site/data/ 2>/dev/null || true
-          
-          # Create .nojekyll to prevent Jekyll processing
           touch _site/.nojekyll
-          
-          # Verify files exist
-          echo "=== Verifying deployment files ==="
-          ls -la _site/ | head -20
-          echo "=== Checking index.html ==="
-          if [ -f "_site/index.html" ]; then
-            echo "✅ index.html found"
-            head -5 _site/index.html
-          else
-            echo "❌ ERROR: index.html NOT FOUND!"
-            exit 1
-          fi
-          echo "=== Checking data files ==="
-          ls -la _site/data/ || echo "⚠️ No data files (this is OK if first run)"
+          echo "Files in _site:"
+          ls -la _site/
+          echo "Checking index.html:"
+          test -f _site/index.html && echo "✅ index.html exists" || (echo "❌ index.html missing!" && exit 1)
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
