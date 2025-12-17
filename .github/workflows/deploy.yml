@@ -41,22 +41,13 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
       
-      - name: Copy files for deployment
+      - name: Build site
         run: |
-          # Create deployment directory
           mkdir -p _site
-          
-          # Copy public files (this includes index.html)
           cp -r public/* _site/
-          
-          # Copy data files
           mkdir -p _site/data
           cp -r data/*.json _site/data/ 2>/dev/null || true
-          
-          # Create .nojekyll to prevent Jekyll processing
           touch _site/.nojekyll
-          
-          # Verify files exist
           echo "=== Verifying deployment files ==="
           ls -la _site/ | head -20
           echo "=== Checking index.html ==="
@@ -75,7 +66,22 @@ jobs:
         with:
           path: '_site'
       
+      - name: Wait for previous deployment
+        run: |
+          echo "Waiting 15 seconds to ensure any previous deployment completes..."
+          sleep 15
+      
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
+        continue-on-error: true
+      
+      - name: Retry deployment if needed
+        if: failure()
+        run: |
+          echo "First deployment attempt failed, waiting 30 seconds and retrying..."
+          sleep 30
+      
+      - name: Deploy to GitHub Pages (Retry)
+        if: failure()
+        uses: actions/deploy-pages@v4
