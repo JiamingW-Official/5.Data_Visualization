@@ -15890,17 +15890,17 @@
   {
     "date": "2025-12-17",
     "timestamp": "2025-12-17T00:00:00.000Z",
-    "sp500": 6798.22021484375,
-    "nasdaq": 23045.556640625,
-    "dow": 48337.2109375,
-    "sentiment": -12.11,
+    "sp500": 6735.25,
+    "nasdaq": 22788.869140625,
+    "dow": 47926.28125,
+    "sentiment": -16.38,
     "sentimentLabel": "Neutral",
     "changes": {
-      "sp500": -0.03,
-      "nasdaq": -0.29,
-      "dow": 0.46
+      "sp500": -0.96,
+      "nasdaq": -1.4,
+      "dow": -0.39
     },
-    "headline": "Markets Trade Flat Amid Mixed Signals",
-    "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails."
+    "headline": "Markets Decline on Negative Sentiment",
+    "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness. Dow Jones led with -0.39% change."
   }
 ]
