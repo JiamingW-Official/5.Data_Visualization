@@ -15838,5 +15838,69 @@
     },
     "headline": "Markets Edge Higher in Cautious Trading",
     "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails. Dow Jones led with +1.34% change."
+  },
+  {
+    "date": "2025-12-12",
+    "timestamp": "2025-12-12T00:00:00.000Z",
+    "sp500": 6827.41015625,
+    "nasdaq": 23195.169921875,
+    "dow": 48458.05078125,
+    "sentiment": -8.28,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": -1.07,
+      "nasdaq": -1.69,
+      "dow": -0.51
+    },
+    "headline": "Markets Decline on Negative Sentiment",
+    "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness. Dow Jones led with -0.51% change."
+  },
+  {
+    "date": "2025-12-15",
+    "timestamp": "2025-12-15T00:00:00.000Z",
+    "sp500": 6816.509765625,
+    "nasdaq": 23057.41015625,
+    "dow": 48416.55859375,
+    "sentiment": -5.54,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": -0.16,
+      "nasdaq": -0.59,
+      "dow": -0.09
+    },
+    "headline": "Markets Trade Flat Amid Mixed Signals",
+    "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness."
+  },
+  {
+    "date": "2025-12-16",
+    "timestamp": "2025-12-16T00:00:00.000Z",
+    "sp500": 6800.259765625,
+    "nasdaq": 23111.4609375,
+    "dow": 48114.26171875,
+    "sentiment": -5.68,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": -0.24,
+      "nasdaq": 0.23,
+      "dow": -0.62
+    },
+    "headline": "Markets Trade Flat Amid Mixed Signals",
+    "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness."
+  },
+  {
+    "date": "2025-12-17",
+    "timestamp": "2025-12-17T00:00:00.000Z",
+    "sp500": 6798.22021484375,
+    "nasdaq": 23045.556640625,
+    "dow": 48337.2109375,
+    "sentiment": -12.11,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": -0.03,
+      "nasdaq": -0.29,
+      "dow": 0.46
+    },
+    "headline": "Markets Trade Flat Amid Mixed Signals",
+    "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails."
   }
 ]

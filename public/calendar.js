@@ -209,3 +209,5 @@ window.showDayDetails = showDayDetails;
 window.closeDayDetails = closeDayDetails;
 window.initCalendar = initCalendar;
 
+
+

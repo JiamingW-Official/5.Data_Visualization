@@ -75,3 +75,5 @@ The final score is aggregated from all three indices (S&P 500: 40%, NASDAQ: 35%,
 - Check browser console for JavaScript errors
 - Try refreshing the page
 
+
+

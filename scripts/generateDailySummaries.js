@@ -84,3 +84,5 @@ function generateHeadline(sentimentScore, sp500Change, nasdaqChange, dowChange, 
 
 module.exports = { generateDailySummary, generateHeadline };
 
+
+
