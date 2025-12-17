@@ -184,9 +184,13 @@ async function fetchYahooFinanceData(symbol, startDate, endDate) {
 
 /**
  * Calculate daily percentage change
+ * This calculates how much the price changed from previous day to current day
  */
 function calculateChange(current, previous) {
+  // If there's no previous value or it's zero, return 0 (can't calculate)
   if (!previous || previous === 0) return 0;
+  // Formula: ((new price - old price) / old price) * 100
+  // Example: if price went from 100 to 105, result is ((105-100)/100)*100 = 5%
   return ((current - previous) / previous) * 100;
 }
 
@@ -199,55 +203,86 @@ function calculateSentimentIndex(marketData) {
     return { score: 0, label: 'Neutral', factors: {} };
   }
 
+  // Get the most recent day's data (last item in array)
   const latest = marketData[marketData.length - 1];
+  // Get yesterday's data (second to last item), or use latest if only one day exists
   const previous = marketData.length > 1 ? marketData[marketData.length - 2] : latest;
+  // Get data from 5 trading days ago (about 1 week), or use latest if not enough data
   const weekAgo = marketData.length > 5 ? marketData[marketData.length - 6] : latest;
+  // Get data from 20 trading days ago (about 1 month), or use latest if not enough data
   const monthAgo = marketData.length > 20 ? marketData[marketData.length - 21] : latest;
 
-  // Factor 1: Daily change (weight: 30%)
+  // Factor 1: Daily change (weight: 30% - most important)
+  // Calculate how much price changed from yesterday to today
   const dailyChange = calculateChange(latest.close, previous.close);
-  const dailyChangeScore = Math.max(-100, Math.min(100, dailyChange * 10)); // Scale to -100 to 100
+  // Multiply by 10 to scale it, then limit to -100 to +100 range
+  // Example: 1% change becomes 10 points, 5% change becomes 50 points
+  const dailyChangeScore = Math.max(-100, Math.min(100, dailyChange * 10));
 
-  // Factor 2: Weekly trend (weight: 25%)
+  // Factor 2: Weekly trend (weight: 25% - second most important)
+  // Calculate how much price changed over the past week
   const weeklyChange = calculateChange(latest.close, weekAgo.close);
+  // Multiply by 5 to scale it, then limit to -100 to +100 range
   const weeklyTrendScore = Math.max(-100, Math.min(100, weeklyChange * 5));
 
-  // Factor 3: Monthly trend (weight: 20%)
+  // Factor 3: Monthly trend (weight: 20% - third most important)
+  // Calculate how much price changed over the past month
   const monthlyChange = calculateChange(latest.close, monthAgo.close);
+  // Multiply by 3 to scale it, then limit to -100 to +100 range
   const monthlyTrendScore = Math.max(-100, Math.min(100, monthlyChange * 3));
 
   // Factor 4: Volume analysis (weight: 15%)
+  // Get volumes from last 20 trading days
   const recentVolumes = marketData.slice(-20).map(d => d.volume);
+  // Calculate average volume over those 20 days
   const avgVolume = recentVolumes.reduce((a, b) => a + b, 0) / recentVolumes.length;
+  // Compare today's volume to average (ratio: 1.0 = average, 1.5 = 50% above average)
   const volumeRatio = avgVolume > 0 ? (latest.volume / avgVolume) : 1;
+  // Convert ratio to score: 1.0 = 0 points, 1.5 = 50 points, 0.5 = -50 points
+  // Limit to -50 to +50 range
   const volumeScore = Math.max(-50, Math.min(50, (volumeRatio - 1) * 100));
 
-  // Factor 5: Volatility (weight: 10%)
+  // Factor 5: Volatility (weight: 10% - least important)
+  // Calculate how much prices changed each day over last 20 days
   const recentChanges = marketData.slice(-20).map((d, i) => {
+    // Skip first day (no previous day to compare)
     if (i === 0) return 0;
+    // Calculate absolute change (always positive) from previous day
     return Math.abs(calculateChange(d.close, marketData[i - 1].close));
   });
+  // Calculate average daily volatility (how much prices swing)
   const avgVolatility = recentChanges.reduce((a, b) => a + b, 0) / recentChanges.length;
-  const volatilityScore = Math.max(-50, Math.min(50, 50 - (avgVolatility * 10))); // Lower volatility = higher score
+  // Lower volatility = higher score (stable market is good)
+  // Formula: 50 - (volatility * 10), limited to -50 to +50 range
+  // Example: 0% volatility = 50 points, 5% volatility = 0 points
+  const volatilityScore = Math.max(-50, Math.min(50, 50 - (avgVolatility * 10)));
 
-  // Weighted combination
+  // Combine all factors with their weights (percentages)
+  // Multiply each score by its weight and add them together
   const sentimentScore = (
-    dailyChangeScore * 0.30 +
-    weeklyTrendScore * 0.25 +
-    monthlyTrendScore * 0.20 +
-    volumeScore * 0.15 +
-    volatilityScore * 0.10
+    dailyChangeScore * 0.30 +    // 30% weight
+    weeklyTrendScore * 0.25 +    // 25% weight
+    monthlyTrendScore * 0.20 +   // 20% weight
+    volumeScore * 0.15 +         // 15% weight
+    volatilityScore * 0.10        // 10% weight
   );
 
-  // Normalize to -100 to 100 range
+  // Make sure final score is between -100 and +100
+  // Math.max(-100, ...) ensures it's not less than -100
+  // Math.min(..., 100) ensures it's not more than +100
   const normalizedScore = Math.max(-100, Math.min(100, sentimentScore));
 
-  // Determine label
-  let label = 'Neutral';
+  // Decide what label to give this sentiment score
+  let label = 'Neutral';  // Default label
+  // Very positive sentiment
   if (normalizedScore > 50) label = 'Very Bullish';
+  // Positive sentiment
   else if (normalizedScore > 20) label = 'Bullish';
+  // Neutral sentiment (between -20 and +20)
   else if (normalizedScore > -20) label = 'Neutral';
+  // Negative sentiment
   else if (normalizedScore > -50) label = 'Bearish';
+  // Very negative sentiment
   else label = 'Very Bearish';
 
   return {
