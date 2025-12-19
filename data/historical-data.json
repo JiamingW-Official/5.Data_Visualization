@@ -15906,17 +15906,33 @@
   {
     "date": "2025-12-18",
     "timestamp": "2025-12-18T00:00:00.000Z",
-    "sp500": 6798.39990234375,
-    "nasdaq": 23104.361328125,
-    "dow": 48123.71875,
-    "sentiment": -8.96,
+    "sp500": 6774.759765625,
+    "nasdaq": 23006.359375,
+    "dow": 47951.8515625,
+    "sentiment": -3.43,
     "sentimentLabel": "Neutral",
     "changes": {
-      "sp500": 1.15,
-      "nasdaq": 1.81,
-      "dow": 0.5
+      "sp500": 0.79,
+      "nasdaq": 1.38,
+      "dow": 0.14
     },
     "headline": "Markets Advance on Positive Trading Day",
-    "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails. NASDAQ led with +1.81% change."
+    "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails. NASDAQ led with +1.38% change."
+  },
+  {
+    "date": "2025-12-19",
+    "timestamp": "2025-12-19T00:00:00.000Z",
+    "sp500": 6832.830078125,
+    "nasdaq": 23257.8203125,
+    "dow": 48249.69921875,
+    "sentiment": -4.61,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": 0.86,
+      "nasdaq": 1.09,
+      "dow": 0.62
+    },
+    "headline": "Markets Advance on Positive Trading Day",
+    "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails. NASDAQ led with +1.09% change."
   }
 ]
