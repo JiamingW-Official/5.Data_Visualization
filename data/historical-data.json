@@ -15954,15 +15954,31 @@
   {
     "date": "2025-12-23",
     "timestamp": "2025-12-23T00:00:00.000Z",
-    "sp500": 6905.14990234375,
-    "nasdaq": 23534.73828125,
-    "dow": 48489.66015625,
-    "sentiment": -7.25,
+    "sp500": 6909.7900390625,
+    "nasdaq": 23561.83984375,
+    "dow": 48442.41015625,
+    "sentiment": -2.21,
     "sentimentLabel": "Neutral",
     "changes": {
-      "sp500": 0.39,
-      "nasdaq": 0.45,
-      "dow": 0.26
+      "sp500": 0.46,
+      "nasdaq": 0.57,
+      "dow": 0.16
+    },
+    "headline": "Markets Edge Higher in Cautious Trading",
+    "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails."
+  },
+  {
+    "date": "2025-12-24",
+    "timestamp": "2025-12-24T00:00:00.000Z",
+    "sp500": 6932.0498046875,
+    "nasdaq": 23613.306640625,
+    "dow": 48731.16015625,
+    "sentiment": -5.9,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": 0.32,
+      "nasdaq": 0.22,
+      "dow": 0.6
     },
     "headline": "Markets Edge Higher in Cautious Trading",
     "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails."
