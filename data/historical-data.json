@@ -15982,5 +15982,21 @@
     },
     "headline": "Markets Edge Higher in Cautious Trading",
     "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails."
+  },
+  {
+    "date": "2025-12-26",
+    "timestamp": "2025-12-26T00:00:00.000Z",
+    "sp500": 6929.68994140625,
+    "nasdaq": 23624.978515625,
+    "dow": 48648.0703125,
+    "sentiment": -8.67,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": -0.03,
+      "nasdaq": 0.05,
+      "dow": -0.17
+    },
+    "headline": "Markets Trade Flat Amid Mixed Signals",
+    "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness."
   }
 ]
