@@ -16002,17 +16002,33 @@
   {
     "date": "2025-12-29",
     "timestamp": "2025-12-29T00:00:00.000Z",
-    "sp500": 6902.990234375,
-    "nasdaq": 23450.64453125,
-    "dow": 48517.03125,
-    "sentiment": -12.36,
+    "sp500": 6905.740234375,
+    "nasdaq": 23474.349609375,
+    "dow": 48461.9296875,
+    "sentiment": -8.35,
     "sentimentLabel": "Neutral",
     "changes": {
-      "sp500": -0.39,
-      "nasdaq": -0.6,
-      "dow": -0.4
+      "sp500": -0.35,
+      "nasdaq": -0.5,
+      "dow": -0.51
     },
     "headline": "Markets Dip Slightly in Quiet Session",
+    "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness."
+  },
+  {
+    "date": "2025-12-30",
+    "timestamp": "2025-12-30T00:00:00.000Z",
+    "sp500": 6904.18994140625,
+    "nasdaq": 23460.927734375,
+    "dow": 48413.76953125,
+    "sentiment": -11.34,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": -0.02,
+      "nasdaq": -0.06,
+      "dow": -0.1
+    },
+    "headline": "Markets Trade Flat Amid Mixed Signals",
     "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness."
   }
 ]
