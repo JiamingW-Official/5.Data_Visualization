@@ -16018,15 +16018,31 @@
   {
     "date": "2025-12-30",
     "timestamp": "2025-12-30T00:00:00.000Z",
-    "sp500": 6904.18994140625,
-    "nasdaq": 23460.927734375,
-    "dow": 48413.76953125,
-    "sentiment": -11.34,
+    "sp500": 6896.240234375,
+    "nasdaq": 23419.080078125,
+    "dow": 48367.05859375,
+    "sentiment": -8.58,
     "sentimentLabel": "Neutral",
     "changes": {
-      "sp500": -0.02,
-      "nasdaq": -0.06,
-      "dow": -0.1
+      "sp500": -0.14,
+      "nasdaq": -0.24,
+      "dow": -0.2
+    },
+    "headline": "Markets Trade Flat Amid Mixed Signals",
+    "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness."
+  },
+  {
+    "date": "2025-12-31",
+    "timestamp": "2025-12-31T00:00:00.000Z",
+    "sp500": 6882.77978515625,
+    "nasdaq": 23381.810546875,
+    "dow": 48254.5,
+    "sentiment": -13.32,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": -0.2,
+      "nasdaq": -0.16,
+      "dow": -0.23
     },
     "headline": "Markets Trade Flat Amid Mixed Signals",
     "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness."
