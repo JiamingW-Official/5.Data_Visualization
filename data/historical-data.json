@@ -16046,5 +16046,21 @@
     },
     "headline": "Markets Decline on Negative Sentiment",
     "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness."
+  },
+  {
+    "date": "2026-01-02",
+    "timestamp": "2026-01-02T00:00:00.000Z",
+    "sp500": 6834.830078125,
+    "nasdaq": 23172.5625,
+    "dow": 48139.890625,
+    "sentiment": -14.61,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": -0.16,
+      "nasdaq": -0.3,
+      "dow": 0.16
+    },
+    "headline": "Markets Trade Flat Amid Mixed Signals",
+    "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness."
   }
 ]
