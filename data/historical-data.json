@@ -16222,5 +16222,21 @@
     },
     "headline": "Markets Trade Flat Amid Mixed Signals",
     "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness."
+  },
+  {
+    "date": "2026-01-20",
+    "timestamp": "2026-01-20T00:00:00.000Z",
+    "sp500": 6814.22021484375,
+    "nasdaq": 23035.26171875,
+    "dow": 48561.98046875,
+    "sentiment": -19.2,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": -1.81,
+      "nasdaq": -2.04,
+      "dow": -1.62
+    },
+    "headline": "Major Indices Fall Sharply Amid Concerns",
+    "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness. Dow Jones led with -1.62% change."
   }
 ]
