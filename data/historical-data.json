@@ -16514,17 +16514,17 @@
   {
     "date": "2026-02-13",
     "timestamp": "2026-02-13T00:00:00.000Z",
-    "sp500": 6874.830078125,
-    "nasdaq": 22716.369140625,
-    "dow": 49657.921875,
-    "sentiment": -12.94,
+    "sp500": 6836.169921875,
+    "nasdaq": 22546.669921875,
+    "dow": 49500.9296875,
+    "sentiment": -9.48,
     "sentimentLabel": "Neutral",
     "changes": {
-      "sp500": 0.62,
-      "nasdaq": 0.53,
-      "dow": 0.42
+      "sp500": 0.05,
+      "nasdaq": -0.22,
+      "dow": 0.1
     },
-    "headline": "Markets Advance on Positive Trading Day",
-    "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails."
+    "headline": "Markets Trade Flat Amid Mixed Signals",
+    "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness."
   }
 ]
