@@ -16722,17 +16722,33 @@
   {
     "date": "2026-03-05",
     "timestamp": "2026-03-05T00:00:00.000Z",
-    "sp500": 6780.0498046875,
-    "nasdaq": 22530.1953125,
-    "dow": 47702.3515625,
-    "sentiment": -19.05,
+    "sp500": 6830.7099609375,
+    "nasdaq": 22748.990234375,
+    "dow": 47954.73828125,
+    "sentiment": -8.14,
     "sentimentLabel": "Neutral",
     "changes": {
-      "sp500": -1.3,
-      "nasdaq": -1.22,
-      "dow": -2.13
+      "sp500": -0.56,
+      "nasdaq": -0.26,
+      "dow": -1.61
     },
-    "headline": "Major Indices Fall Sharply Amid Concerns",
-    "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness. NASDAQ led with -1.22% change."
+    "headline": "Markets Decline on Negative Sentiment",
+    "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness. NASDAQ led with -0.26% change."
+  },
+  {
+    "date": "2026-03-06",
+    "timestamp": "2026-03-06T00:00:00.000Z",
+    "sp500": 6759.60009765625,
+    "nasdaq": 22541.287109375,
+    "dow": 47405.140625,
+    "sentiment": -17.93,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": -1.04,
+      "nasdaq": -0.91,
+      "dow": -1.15
+    },
+    "headline": "Markets Decline on Negative Sentiment",
+    "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness. NASDAQ led with -0.91% change."
   }
 ]
