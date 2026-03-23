@@ -16898,17 +16898,33 @@
   {
     "date": "2026-03-20",
     "timestamp": "2026-03-20T00:00:00.000Z",
-    "sp500": 6506.18017578125,
-    "nasdaq": 21639.423828125,
-    "dow": 45515.1484375,
-    "sentiment": -22.5,
-    "sentimentLabel": "Bearish",
+    "sp500": 6506.47998046875,
+    "nasdaq": 21647.609375,
+    "dow": 45577.46875,
+    "sentiment": -9.54,
+    "sentimentLabel": "Neutral",
     "changes": {
-      "sp500": -1.52,
-      "nasdaq": -2.04,
-      "dow": -1.1
+      "sp500": -1.51,
+      "nasdaq": -2.01,
+      "dow": -0.96
     },
-    "headline": "Major Indices Fall Sharply Amid Concerns",
-    "summary": "Negative sentiment with losses in major indices. Investors show caution. Dow Jones led with -1.10% change."
+    "headline": "Markets Decline on Negative Sentiment",
+    "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness. Dow Jones led with -0.96% change."
+  },
+  {
+    "date": "2026-03-23",
+    "timestamp": "2026-03-23T00:00:00.000Z",
+    "sp500": 6615.08984375,
+    "nasdaq": 22040.62109375,
+    "dow": 46461.41015625,
+    "sentiment": -9.95,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": 1.67,
+      "nasdaq": 1.82,
+      "dow": 1.94
+    },
+    "headline": "Major Indices Surge on Strong Market Sentiment",
+    "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails. Dow Jones led with +1.94% change."
   }
 ]
