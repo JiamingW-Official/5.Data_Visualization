@@ -16962,17 +16962,33 @@
   {
     "date": "2026-03-26",
     "timestamp": "2026-03-26T00:00:00.000Z",
-    "sp500": 6497.68994140625,
-    "nasdaq": 21487.728515625,
-    "dow": 46050.4296875,
-    "sentiment": -22.35,
+    "sp500": 6477.16015625,
+    "nasdaq": 21408.080078125,
+    "dow": 45960.109375,
+    "sentiment": -18.84,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": -1.74,
+      "nasdaq": -2.38,
+      "dow": -1.01
+    },
+    "headline": "Major Indices Fall Sharply Amid Concerns",
+    "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness. Dow Jones led with -1.01% change."
+  },
+  {
+    "date": "2026-03-27",
+    "timestamp": "2026-03-27T00:00:00.000Z",
+    "sp500": 6381.39013671875,
+    "nasdaq": 20983.048828125,
+    "dow": 45250.26953125,
+    "sentiment": -23.33,
     "sentimentLabel": "Bearish",
     "changes": {
-      "sp500": -1.43,
-      "nasdaq": -2.02,
-      "dow": -0.82
+      "sp500": -1.48,
+      "nasdaq": -1.99,
+      "dow": -1.54
     },
-    "headline": "Markets Decline on Negative Sentiment",
-    "summary": "Negative sentiment with losses in major indices. Investors show caution. Dow Jones led with -0.82% change."
+    "headline": "Major Indices Fall Sharply Amid Concerns",
+    "summary": "Negative sentiment with losses in major indices. Investors show caution. S&P 500 led with -1.48% change."
   }
 ]
