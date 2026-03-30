@@ -16978,17 +16978,33 @@
   {
     "date": "2026-03-27",
     "timestamp": "2026-03-27T00:00:00.000Z",
-    "sp500": 6381.39013671875,
-    "nasdaq": 20983.048828125,
-    "dow": 45250.26953125,
-    "sentiment": -23.33,
-    "sentimentLabel": "Bearish",
+    "sp500": 6368.85009765625,
+    "nasdaq": 20948.359375,
+    "dow": 45166.640625,
+    "sentiment": -18.5,
+    "sentimentLabel": "Neutral",
     "changes": {
-      "sp500": -1.48,
-      "nasdaq": -1.99,
-      "dow": -1.54
+      "sp500": -1.67,
+      "nasdaq": -2.15,
+      "dow": -1.73
     },
     "headline": "Major Indices Fall Sharply Amid Concerns",
-    "summary": "Negative sentiment with losses in major indices. Investors show caution. S&P 500 led with -1.48% change."
+    "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness. S&P 500 led with -1.67% change."
+  },
+  {
+    "date": "2026-03-30",
+    "timestamp": "2026-03-30T00:00:00.000Z",
+    "sp500": 6349.10009765625,
+    "nasdaq": 20803.236328125,
+    "dow": 45286.87890625,
+    "sentiment": -21.64,
+    "sentimentLabel": "Bearish",
+    "changes": {
+      "sp500": -0.31,
+      "nasdaq": -0.69,
+      "dow": 0.27
+    },
+    "headline": "Markets Trade Flat Amid Mixed Signals",
+    "summary": "Negative sentiment with losses in major indices. Investors show caution."
   }
 ]
