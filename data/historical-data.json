@@ -17054,5 +17054,21 @@
     },
     "headline": "Markets Trade Flat Amid Mixed Signals",
     "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails."
+  },
+  {
+    "date": "2026-04-06",
+    "timestamp": "2026-04-06T00:00:00.000Z",
+    "sp500": 6603.91015625,
+    "nasdaq": 21978.96484375,
+    "dow": 46603.01953125,
+    "sentiment": -7.24,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": 0.32,
+      "nasdaq": 0.46,
+      "dow": 0.21
+    },
+    "headline": "Markets Edge Higher in Cautious Trading",
+    "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails."
   }
 ]
