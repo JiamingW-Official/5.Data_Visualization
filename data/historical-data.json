@@ -17074,17 +17074,33 @@
   {
     "date": "2026-04-07",
     "timestamp": "2026-04-07T00:00:00.000Z",
-    "sp500": 6575.080078125,
-    "nasdaq": 21815.751953125,
-    "dow": 46395.5390625,
-    "sentiment": -9.57,
+    "sp500": 6616.85009765625,
+    "nasdaq": 22017.849609375,
+    "dow": 46584.4609375,
+    "sentiment": -1.38,
     "sentimentLabel": "Neutral",
     "changes": {
-      "sp500": -0.56,
-      "nasdaq": -0.82,
-      "dow": -0.59
+      "sp500": 0.08,
+      "nasdaq": 0.1,
+      "dow": -0.18
     },
-    "headline": "Markets Decline on Negative Sentiment",
+    "headline": "Markets Trade Flat Amid Mixed Signals",
     "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness."
+  },
+  {
+    "date": "2026-04-08",
+    "timestamp": "2026-04-08T00:00:00.000Z",
+    "sp500": 6763.259765625,
+    "nasdaq": 22577.794921875,
+    "dow": 47741.1796875,
+    "sentiment": 1.4,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": 2.21,
+      "nasdaq": 2.54,
+      "dow": 2.48
+    },
+    "headline": "Major Indices Surge on Strong Market Sentiment",
+    "summary": "Mildly positive sentiment with modest gains. Market shows steady upward trend. NASDAQ led with +2.54% change."
   }
 ]
