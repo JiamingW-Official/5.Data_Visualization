@@ -17186,17 +17186,33 @@
   {
     "date": "2026-04-16",
     "timestamp": "2026-04-16T00:00:00.000Z",
-    "sp500": 7030.2099609375,
-    "nasdaq": 24053.5390625,
-    "dow": 48536.05859375,
-    "sentiment": -2.38,
+    "sp500": 7041.27978515625,
+    "nasdaq": 24102.69921875,
+    "dow": 48578.71875,
+    "sentiment": 4,
     "sentimentLabel": "Neutral",
     "changes": {
-      "sp500": 0.1,
-      "nasdaq": 0.16,
-      "dow": 0.15
+      "sp500": 0.26,
+      "nasdaq": 0.36,
+      "dow": 0.24
     },
     "headline": "Markets Trade Flat Amid Mixed Signals",
-    "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails."
+    "summary": "Mildly positive sentiment with modest gains. Market shows steady upward trend."
+  },
+  {
+    "date": "2026-04-17",
+    "timestamp": "2026-04-17T00:00:00.000Z",
+    "sp500": 7123.66015625,
+    "nasdaq": 24441.96875,
+    "dow": 49480.1015625,
+    "sentiment": 5.23,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": 1.17,
+      "nasdaq": 1.41,
+      "dow": 1.86
+    },
+    "headline": "Markets Advance on Positive Trading Day",
+    "summary": "Mildly positive sentiment with modest gains. Market shows steady upward trend. Dow Jones led with +1.86% change."
   }
 ]
