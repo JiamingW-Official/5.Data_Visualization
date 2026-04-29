@@ -17314,15 +17314,31 @@
   {
     "date": "2026-04-28",
     "timestamp": "2026-04-28T00:00:00.000Z",
-    "sp500": 7138.97998046875,
-    "nasdaq": 24687.32421875,
-    "dow": 49115.16015625,
-    "sentiment": -3.52,
+    "sp500": 7138.7998046875,
+    "nasdaq": 24663.80078125,
+    "dow": 49141.9296875,
+    "sentiment": 1.91,
     "sentimentLabel": "Neutral",
     "changes": {
       "sp500": -0.49,
-      "nasdaq": -0.8,
-      "dow": -0.11
+      "nasdaq": -0.9,
+      "dow": -0.05
+    },
+    "headline": "Markets Dip Slightly in Quiet Session",
+    "summary": "Mixed signals: positive sentiment despite mixed index performance. Market shows resilience."
+  },
+  {
+    "date": "2026-04-29",
+    "timestamp": "2026-04-29T00:00:00.000Z",
+    "sp500": 7124.8798828125,
+    "nasdaq": 24638.763671875,
+    "dow": 48809.30078125,
+    "sentiment": -7.04,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": -0.19,
+      "nasdaq": -0.1,
+      "dow": -0.68
     },
     "headline": "Markets Dip Slightly in Quiet Session",
     "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness."
