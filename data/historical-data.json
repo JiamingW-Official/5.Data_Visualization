@@ -17346,17 +17346,33 @@
   {
     "date": "2026-04-30",
     "timestamp": "2026-04-30T00:00:00.000Z",
-    "sp500": 7208.7001953125,
-    "nasdaq": 24893.7734375,
-    "dow": 49694.3515625,
-    "sentiment": 0.69,
+    "sp500": 7209.009765625,
+    "nasdaq": 24892.310546875,
+    "dow": 49652.140625,
+    "sentiment": 8.65,
     "sentimentLabel": "Neutral",
     "changes": {
       "sp500": 1.02,
       "nasdaq": 0.89,
-      "dow": 1.7
+      "dow": 1.62
     },
     "headline": "Markets Advance on Positive Trading Day",
-    "summary": "Mildly positive sentiment with modest gains. Market shows steady upward trend. Dow Jones led with +1.70% change."
+    "summary": "Mildly positive sentiment with modest gains. Market shows steady upward trend. Dow Jones led with +1.62% change."
+  },
+  {
+    "date": "2026-05-01",
+    "timestamp": "2026-05-01T00:00:00.000Z",
+    "sp500": 7234.02001953125,
+    "nasdaq": 25100.357421875,
+    "dow": 49571.3203125,
+    "sentiment": -2.99,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": 0.35,
+      "nasdaq": 0.84,
+      "dow": -0.16
+    },
+    "headline": "Markets Edge Higher in Cautious Trading",
+    "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails."
   }
 ]
