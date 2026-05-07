@@ -17410,17 +17410,33 @@
   {
     "date": "2026-05-06",
     "timestamp": "2026-05-06T00:00:00.000Z",
-    "sp500": 7355.60009765625,
-    "nasdaq": 25779.41796875,
-    "dow": 49945.58984375,
-    "sentiment": 3.4,
+    "sp500": 7365.1201171875,
+    "nasdaq": 25838.939453125,
+    "dow": 49910.58984375,
+    "sentiment": 12.08,
     "sentimentLabel": "Neutral",
     "changes": {
-      "sp500": 1.33,
-      "nasdaq": 1.79,
-      "dow": 1.31
+      "sp500": 1.46,
+      "nasdaq": 2.02,
+      "dow": 1.24
     },
-    "headline": "Markets Advance on Positive Trading Day",
-    "summary": "Mildly positive sentiment with modest gains. Market shows steady upward trend. NASDAQ led with +1.79% change."
+    "headline": "Major Indices Surge on Strong Market Sentiment",
+    "summary": "Mildly positive sentiment with modest gains. Market shows steady upward trend. NASDAQ led with +2.02% change."
+  },
+  {
+    "date": "2026-05-07",
+    "timestamp": "2026-05-07T00:00:00.000Z",
+    "sp500": 7332.4501953125,
+    "nasdaq": 25770.263671875,
+    "dow": 49591.7109375,
+    "sentiment": -4.74,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": -0.44,
+      "nasdaq": -0.27,
+      "dow": -0.64
+    },
+    "headline": "Markets Dip Slightly in Quiet Session",
+    "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness."
   }
 ]
