@@ -17602,17 +17602,17 @@
   {
     "date": "2026-05-22",
     "timestamp": "2026-05-22T00:00:00.000Z",
-    "sp500": 7481.41015625,
-    "nasdaq": 26374.078125,
-    "dow": 50653.96875,
-    "sentiment": -5.14,
+    "sp500": 7473.47021484375,
+    "nasdaq": 26343.970703125,
+    "dow": 50579.69921875,
+    "sentiment": -0.6,
     "sentimentLabel": "Neutral",
     "changes": {
-      "sp500": 0.48,
-      "nasdaq": 0.31,
-      "dow": 0.73
+      "sp500": 0.37,
+      "nasdaq": 0.19,
+      "dow": 0.58
     },
-    "headline": "Markets Advance on Positive Trading Day",
+    "headline": "Markets Edge Higher in Cautious Trading",
     "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails."
   }
 ]
