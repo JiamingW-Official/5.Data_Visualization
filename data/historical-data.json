@@ -17614,5 +17614,21 @@
     },
     "headline": "Markets Edge Higher in Cautious Trading",
     "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails."
+  },
+  {
+    "date": "2026-05-26",
+    "timestamp": "2026-05-26T00:00:00.000Z",
+    "sp500": 7512.33984375,
+    "nasdaq": 26604.291015625,
+    "dow": 50383.0703125,
+    "sentiment": -4.1,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": 0.52,
+      "nasdaq": 0.99,
+      "dow": -0.39
+    },
+    "headline": "Markets Edge Higher in Cautious Trading",
+    "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails."
   }
 ]
