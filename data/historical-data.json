@@ -13621,7 +13621,7 @@
     "sp500": 5921.5400390625,
     "nasdaq": 19199.16015625,
     "dow": 42343.6484375,
-    "sentiment": 8.13,
+    "sentiment": 5.2,
     "sentimentLabel": "Neutral",
     "changes": {
       "sp500": 2.05,
@@ -13637,7 +13637,7 @@
     "sp500": 5888.5498046875,
     "nasdaq": 19100.939453125,
     "dow": 42098.69921875,
-    "sentiment": -6.34,
+    "sentiment": -4.89,
     "sentimentLabel": "Neutral",
     "changes": {
       "sp500": -0.56,
@@ -13653,7 +13653,7 @@
     "sp500": 5912.169921875,
     "nasdaq": 19175.869140625,
     "dow": 42215.73046875,
-    "sentiment": 1.07,
+    "sentiment": 3.01,
     "sentimentLabel": "Neutral",
     "changes": {
       "sp500": 0.4,
@@ -13669,7 +13669,7 @@
     "sp500": 5911.68994140625,
     "nasdaq": 19113.76953125,
     "dow": 42270.0703125,
-    "sentiment": 1.02,
+    "sentiment": 2.6,
     "sentimentLabel": "Neutral",
     "changes": {
       "sp500": -0.01,
@@ -13685,7 +13685,7 @@
     "sp500": 5935.93994140625,
     "nasdaq": 19242.609375,
     "dow": 42305.48046875,
-    "sentiment": -1.16,
+    "sentiment": 0.2,
     "sentimentLabel": "Neutral",
     "changes": {
       "sp500": 0.41,
@@ -13693,7 +13693,7 @@
       "dow": 0.08
     },
     "headline": "Markets Edge Higher in Cautious Trading",
-    "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails."
+    "summary": "Mildly positive sentiment with modest gains. Market shows steady upward trend."
   },
   {
     "date": "2025-06-03",
@@ -13701,7 +13701,7 @@
     "sp500": 5970.3701171875,
     "nasdaq": 19398.9609375,
     "dow": 42519.640625,
-    "sentiment": -1.01,
+    "sentiment": 0.38,
     "sentimentLabel": "Neutral",
     "changes": {
       "sp500": 0.58,
@@ -13709,7 +13709,7 @@
       "dow": 0.51
     },
     "headline": "Markets Advance on Positive Trading Day",
-    "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails."
+    "summary": "Mildly positive sentiment with modest gains. Market shows steady upward trend."
   },
   {
     "date": "2025-06-04",
@@ -13717,7 +13717,7 @@
     "sp500": 5970.81005859375,
     "nasdaq": 19460.490234375,
     "dow": 42427.73828125,
-    "sentiment": -2.46,
+    "sentiment": -1.14,
     "sentimentLabel": "Neutral",
     "changes": {
       "sp500": 0.01,
@@ -13733,7 +13733,7 @@
     "sp500": 5939.2998046875,
     "nasdaq": 19298.44921875,
     "dow": 42319.73828125,
-    "sentiment": -4.56,
+    "sentiment": -3.06,
     "sentimentLabel": "Neutral",
     "changes": {
       "sp500": -0.53,
@@ -13749,7 +13749,7 @@
     "sp500": 6000.35986328125,
     "nasdaq": 19529.94921875,
     "dow": 42762.87109375,
-    "sentiment": -0.02,
+    "sentiment": 1.24,
     "sentimentLabel": "Neutral",
     "changes": {
       "sp500": 1.03,
@@ -13757,7 +13757,7 @@
       "dow": 1.05
     },
     "headline": "Markets Advance on Positive Trading Day",
-    "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails. NASDAQ led with +1.20% change."
+    "summary": "Mildly positive sentiment with modest gains. Market shows steady upward trend. NASDAQ led with +1.20% change."
   },
   {
     "date": "2025-06-09",
@@ -13765,7 +13765,7 @@
     "sp500": 6005.8798828125,
     "nasdaq": 19591.240234375,
     "dow": 42761.76171875,
-    "sentiment": -1.42,
+    "sentiment": 0.23,
     "sentimentLabel": "Neutral",
     "changes": {
       "sp500": 0.09,
@@ -13773,7 +13773,7 @@
       "dow": 0
     },
     "headline": "Markets Trade Flat Amid Mixed Signals",
-    "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails."
+    "summary": "Mildly positive sentiment with modest gains. Market shows steady upward trend."
   },
   {
     "date": "2025-06-10",
@@ -13781,7 +13781,7 @@
     "sp500": 6038.81005859375,
     "nasdaq": 19714.990234375,
     "dow": 42866.87109375,
-    "sentiment": -1.61,
+    "sentiment": 0.32,
     "sentimentLabel": "Neutral",
     "changes": {
       "sp500": 0.55,
@@ -13789,7 +13789,7 @@
       "dow": 0.25
     },
     "headline": "Markets Edge Higher in Cautious Trading",
-    "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails."
+    "summary": "Mildly positive sentiment with modest gains. Market shows steady upward trend."
   },
   {
     "date": "2025-06-11",
@@ -13797,7 +13797,7 @@
     "sp500": 6022.240234375,
     "nasdaq": 19615.880859375,
     "dow": 42865.76953125,
-    "sentiment": -4.9,
+    "sentiment": -3.16,
     "sentimentLabel": "Neutral",
     "changes": {
       "sp500": -0.27,
@@ -13813,7 +13813,7 @@
     "sp500": 6045.259765625,
     "nasdaq": 19662.490234375,
     "dow": 42967.62109375,
-    "sentiment": -0.33,
+    "sentiment": 1.43,
     "sentimentLabel": "Neutral",
     "changes": {
       "sp500": 0.38,
@@ -13821,7 +13821,7 @@
       "dow": 0.24
     },
     "headline": "Markets Trade Flat Amid Mixed Signals",
-    "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails."
+    "summary": "Mildly positive sentiment with modest gains. Market shows steady upward trend."
   },
   {
     "date": "2025-06-13",
@@ -13829,7 +13829,7 @@
     "sp500": 5976.97021484375,
     "nasdaq": 19406.830078125,
     "dow": 42197.7890625,
-    "sentiment": -11.07,
+    "sentiment": -9.58,
     "sentimentLabel": "Neutral",
     "changes": {
       "sp500": -1.13,
@@ -13845,7 +13845,7 @@
     "sp500": 6033.10986328125,
     "nasdaq": 19701.2109375,
     "dow": 42515.08984375,
-    "sentiment": -2.32,
+    "sentiment": -0.72,
     "sentimentLabel": "Neutral",
     "changes": {
       "sp500": 0.94,
@@ -13861,7 +13861,7 @@
     "sp500": 5982.72021484375,
     "nasdaq": 19521.08984375,
     "dow": 42215.80078125,
-    "sentiment": -11.22,
+    "sentiment": -9.74,
     "sentimentLabel": "Neutral",
     "changes": {
       "sp500": -0.84,
@@ -13877,7 +13877,7 @@
     "sp500": 5980.8701171875,
     "nasdaq": 19546.26953125,
     "dow": 42171.66015625,
-    "sentiment": -7.79,
+    "sentiment": -6.42,
     "sentimentLabel": "Neutral",
     "changes": {
       "sp500": -0.03,
@@ -13893,7 +13893,7 @@
     "sp500": 5967.83984375,
     "nasdaq": 19447.41015625,
     "dow": 42206.8203125,
-    "sentiment": -2.89,
+    "sentiment": -1.11,
     "sentimentLabel": "Neutral",
     "changes": {
       "sp500": -0.22,
@@ -13909,7 +13909,7 @@
     "sp500": 6025.169921875,
     "nasdaq": 19630.970703125,
     "dow": 42581.78125,
-    "sentiment": -0.55,
+    "sentiment": 1.05,
     "sentimentLabel": "Neutral",
     "changes": {
       "sp500": 0.96,
@@ -13917,7 +13917,7 @@
       "dow": 0.89
     },
     "headline": "Markets Advance on Positive Trading Day",
-    "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails."
+    "summary": "Mildly positive sentiment with modest gains. Market shows steady upward trend."
   },
   {
     "date": "2025-06-24",
@@ -13925,7 +13925,7 @@
     "sp500": 6092.18017578125,
     "nasdaq": 19912.529296875,
     "dow": 43089.01953125,
-    "sentiment": 1.44,
+    "sentiment": 2.91,
     "sentimentLabel": "Neutral",
     "changes": {
       "sp500": 1.11,
@@ -17650,15 +17650,31 @@
   {
     "date": "2026-05-28",
     "timestamp": "2026-05-28T00:00:00.000Z",
-    "sp500": 7561.7099609375,
-    "nasdaq": 26898.515625,
-    "dow": 50670.4609375,
-    "sentiment": -3.16,
+    "sp500": 7563.6298828125,
+    "nasdaq": 26917.470703125,
+    "dow": 50668.96875,
+    "sentiment": 2.89,
     "sentimentLabel": "Neutral",
     "changes": {
-      "sp500": 0.55,
-      "nasdaq": 0.84,
+      "sp500": 0.58,
+      "nasdaq": 0.91,
       "dow": 0.05
+    },
+    "headline": "Markets Advance on Positive Trading Day",
+    "summary": "Mildly positive sentiment with modest gains. Market shows steady upward trend."
+  },
+  {
+    "date": "2026-05-29",
+    "timestamp": "2026-05-29T00:00:00.000Z",
+    "sp500": 7580.14013671875,
+    "nasdaq": 26961.5390625,
+    "dow": 51021.9609375,
+    "sentiment": -3.06,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": 0.22,
+      "nasdaq": 0.16,
+      "dow": 0.7
     },
     "headline": "Markets Edge Higher in Cautious Trading",
     "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails."
