@@ -17730,17 +17730,33 @@
   {
     "date": "2026-06-04",
     "timestamp": "2026-06-04T00:00:00.000Z",
-    "sp500": 7591.41015625,
-    "nasdaq": 26879.580078125,
-    "dow": 51620.8203125,
-    "sentiment": -6.23,
+    "sp500": 7584.31005859375,
+    "nasdaq": 26830.9609375,
+    "dow": 51561.9296875,
+    "sentiment": -1.57,
     "sentimentLabel": "Neutral",
     "changes": {
-      "sp500": 0.5,
-      "nasdaq": 0.1,
-      "dow": 1.84
+      "sp500": 0.41,
+      "nasdaq": -0.09,
+      "dow": 1.73
     },
     "headline": "Markets Advance on Positive Trading Day",
-    "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails. Dow Jones led with +1.84% change."
+    "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails. Dow Jones led with +1.73% change."
+  },
+  {
+    "date": "2026-06-05",
+    "timestamp": "2026-06-05T00:00:00.000Z",
+    "sp500": 7392.75,
+    "nasdaq": 25768.04296875,
+    "dow": 50889.8984375,
+    "sentiment": -20.82,
+    "sentimentLabel": "Bearish",
+    "changes": {
+      "sp500": -2.53,
+      "nasdaq": -3.96,
+      "dow": -1.3
+    },
+    "headline": "Major Indices Fall Sharply Amid Concerns",
+    "summary": "Negative sentiment with losses in major indices. Investors show caution. Dow Jones led with -1.30% change."
   }
 ]
