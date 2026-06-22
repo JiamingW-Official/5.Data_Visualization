@@ -17886,5 +17886,37 @@
     },
     "headline": "Markets Decline on Negative Sentiment",
     "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness. Dow Jones led with -0.98% change."
+  },
+  {
+    "date": "2026-06-18",
+    "timestamp": "2026-06-18T00:00:00.000Z",
+    "sp500": 7500.580078125,
+    "nasdaq": 26517.9296875,
+    "dow": 51564.69921875,
+    "sentiment": 9.15,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": 1.08,
+      "nasdaq": 1.91,
+      "dow": 0.14
+    },
+    "headline": "Markets Advance on Positive Trading Day",
+    "summary": "Mildly positive sentiment with modest gains. Market shows steady upward trend. NASDAQ led with +1.91% change."
+  },
+  {
+    "date": "2026-06-22",
+    "timestamp": "2026-06-22T00:00:00.000Z",
+    "sp500": 7463.83984375,
+    "nasdaq": 26149.697265625,
+    "dow": 51631.41015625,
+    "sentiment": -10.45,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": -0.49,
+      "nasdaq": -1.39,
+      "dow": 0.13
+    },
+    "headline": "Markets Decline on Negative Sentiment",
+    "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness. Dow Jones led with +0.13% change."
   }
 ]
