@@ -17970,17 +17970,33 @@
   {
     "date": "2026-06-26",
     "timestamp": "2026-06-26T00:00:00.000Z",
-    "sp500": 7348.330078125,
-    "nasdaq": 25285.880859375,
-    "dow": 51853.71875,
-    "sentiment": -15.68,
+    "sp500": 7354.02001953125,
+    "nasdaq": 25297.619140625,
+    "dow": 51876.109375,
+    "sentiment": -2.72,
     "sentimentLabel": "Neutral",
     "changes": {
-      "sp500": -0.12,
-      "nasdaq": -0.29,
-      "dow": -0.13
+      "sp500": -0.05,
+      "nasdaq": -0.24,
+      "dow": -0.09
     },
     "headline": "Markets Trade Flat Amid Mixed Signals",
     "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness."
+  },
+  {
+    "date": "2026-06-29",
+    "timestamp": "2026-06-29T00:00:00.000Z",
+    "sp500": 7436.1298828125,
+    "nasdaq": 25799.908203125,
+    "dow": 52233.19921875,
+    "sentiment": -9.27,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": 1.12,
+      "nasdaq": 1.99,
+      "dow": 0.69
+    },
+    "headline": "Markets Advance on Positive Trading Day",
+    "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails. NASDAQ led with +1.99% change."
   }
 ]
