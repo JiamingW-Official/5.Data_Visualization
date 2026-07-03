@@ -18034,17 +18034,17 @@
   {
     "date": "2026-07-02",
     "timestamp": "2026-07-02T00:00:00.000Z",
-    "sp500": 7455.3798828125,
-    "nasdaq": 25739.05078125,
-    "dow": 52668.109375,
-    "sentiment": -12.02,
+    "sp500": 7483.240234375,
+    "nasdaq": 25832.669921875,
+    "dow": 52900.0703125,
+    "sentiment": -4.83,
     "sentimentLabel": "Neutral",
     "changes": {
-      "sp500": -0.37,
-      "nasdaq": -1.16,
-      "dow": 0.69
+      "sp500": 0,
+      "nasdaq": -0.8,
+      "dow": 1.14
     },
     "headline": "Markets Trade Flat Amid Mixed Signals",
-    "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness. Dow Jones led with +0.69% change."
+    "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails. Dow Jones led with +1.14% change."
   }
 ]
