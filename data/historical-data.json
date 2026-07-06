@@ -18046,5 +18046,21 @@
     },
     "headline": "Markets Trade Flat Amid Mixed Signals",
     "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails. Dow Jones led with +1.14% change."
+  },
+  {
+    "date": "2026-07-06",
+    "timestamp": "2026-07-06T00:00:00.000Z",
+    "sp500": 7546.93017578125,
+    "nasdaq": 26151.93359375,
+    "dow": 52988.7109375,
+    "sentiment": -6.83,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": 0.85,
+      "nasdaq": 1.24,
+      "dow": 0.17
+    },
+    "headline": "Markets Advance on Positive Trading Day",
+    "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails. NASDAQ led with +1.24% change."
   }
 ]
