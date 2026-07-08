@@ -18066,17 +18066,33 @@
   {
     "date": "2026-07-07",
     "timestamp": "2026-07-07T00:00:00.000Z",
-    "sp500": 7492.169921875,
-    "nasdaq": 25789.734375,
-    "dow": 52843.140625,
-    "sentiment": -13.11,
+    "sp500": 7503.85009765625,
+    "nasdaq": 25818.689453125,
+    "dow": 52925.1484375,
+    "sentiment": -8.22,
     "sentimentLabel": "Neutral",
     "changes": {
-      "sp500": -0.6,
-      "nasdaq": -1.27,
-      "dow": -0.4
+      "sp500": -0.45,
+      "nasdaq": -1.16,
+      "dow": -0.25
     },
     "headline": "Markets Decline on Negative Sentiment",
-    "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness. Dow Jones led with -0.40% change."
+    "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness. Dow Jones led with -0.25% change."
+  },
+  {
+    "date": "2026-07-08",
+    "timestamp": "2026-07-08T00:00:00.000Z",
+    "sp500": 7477.18994140625,
+    "nasdaq": 25803.259765625,
+    "dow": 52364.1484375,
+    "sentiment": -14,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": -0.36,
+      "nasdaq": -0.06,
+      "dow": -1.06
+    },
+    "headline": "Markets Dip Slightly in Quiet Session",
+    "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness. NASDAQ led with -0.06% change."
   }
 ]
