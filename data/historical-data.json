@@ -18130,17 +18130,33 @@
   {
     "date": "2026-07-13",
     "timestamp": "2026-07-13T00:00:00.000Z",
-    "sp500": 7520.06005859375,
-    "nasdaq": 25894.8515625,
-    "dow": 52491.80859375,
-    "sentiment": -14.99,
+    "sp500": 7515.33984375,
+    "nasdaq": 25873.1796875,
+    "dow": 52498.640625,
+    "sentiment": -11.63,
     "sentimentLabel": "Neutral",
     "changes": {
-      "sp500": -0.73,
-      "nasdaq": -1.47,
-      "dow": -0.28
+      "sp500": -0.79,
+      "nasdaq": -1.55,
+      "dow": -0.26
     },
     "headline": "Markets Decline on Negative Sentiment",
-    "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness. Dow Jones led with -0.28% change."
+    "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness. Dow Jones led with -0.26% change."
+  },
+  {
+    "date": "2026-07-14",
+    "timestamp": "2026-07-14T00:00:00.000Z",
+    "sp500": 7546.06005859375,
+    "nasdaq": 26129.02734375,
+    "dow": 52475.75,
+    "sentiment": -9.45,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": 0.41,
+      "nasdaq": 0.99,
+      "dow": -0.04
+    },
+    "headline": "Markets Edge Higher in Cautious Trading",
+    "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails."
   }
 ]
