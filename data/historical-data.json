@@ -18146,15 +18146,31 @@
   {
     "date": "2026-07-14",
     "timestamp": "2026-07-14T00:00:00.000Z",
-    "sp500": 7546.06005859375,
-    "nasdaq": 26129.02734375,
-    "dow": 52475.75,
-    "sentiment": -9.45,
+    "sp500": 7543.58984375,
+    "nasdaq": 26107.009765625,
+    "dow": 52508.26953125,
+    "sentiment": -5.38,
     "sentimentLabel": "Neutral",
     "changes": {
-      "sp500": 0.41,
-      "nasdaq": 0.99,
-      "dow": -0.04
+      "sp500": 0.38,
+      "nasdaq": 0.9,
+      "dow": 0.02
+    },
+    "headline": "Markets Edge Higher in Cautious Trading",
+    "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails."
+  },
+  {
+    "date": "2026-07-15",
+    "timestamp": "2026-07-15T00:00:00.000Z",
+    "sp500": 7563.39990234375,
+    "nasdaq": 26222.05078125,
+    "dow": 52623.9609375,
+    "sentiment": -10.11,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": 0.26,
+      "nasdaq": 0.44,
+      "dow": 0.22
     },
     "headline": "Markets Edge Higher in Cautious Trading",
     "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails."
