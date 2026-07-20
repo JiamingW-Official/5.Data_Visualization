@@ -1,45 +1,45 @@
 {
-  "timestamp": "2026-07-17T18:48:32.835Z",
-  "date": "2026-07-17",
+  "timestamp": "2026-07-20T19:07:47.658Z",
+  "date": "2026-07-20",
   "sentiment": {
-    "score": -17.02,
+    "score": -15.06,
     "label": "Neutral",
     "indices": {
       "sp500": {
-        "score": -16.59,
+        "score": -14.22,
         "label": "Neutral",
-        "current": 7466.6298828125,
-        "change": -0.89
+        "current": 7451.2099609375,
+        "change": -0.09
       },
       "nasdaq": {
-        "score": -20.53,
-        "label": "Bearish",
-        "current": 25570.583984375,
-        "change": -1.2
+        "score": -15.81,
+        "label": "Neutral",
+        "current": 25555,
+        "change": 0.14
       },
       "dow": {
-        "score": -12.78,
+        "score": -15.36,
         "label": "Neutral",
-        "current": 52209.2890625,
-        "change": -0.65
+        "current": 51856.26953125,
+        "change": -0.56
       }
     }
   },
   "indices": {
     "sp500": {
-      "current": 7466.6298828125,
-      "change": -0.89,
-      "changePercent": -0.89
+      "current": 7451.2099609375,
+      "change": -0.09,
+      "changePercent": -0.09
     },
     "nasdaq": {
-      "current": 25570.583984375,
-      "change": -1.2,
-      "changePercent": -1.2
+      "current": 25555,
+      "change": 0.14,
+      "changePercent": 0.14
     },
     "dow": {
-      "current": 52209.2890625,
-      "change": -0.65,
-      "changePercent": -0.65
+      "current": 51856.26953125,
+      "change": -0.56,
+      "changePercent": -0.56
     }
   }
 }
