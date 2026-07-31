@@ -18338,17 +18338,33 @@
   {
     "date": "2026-07-30",
     "timestamp": "2026-07-30T00:00:00.000Z",
-    "sp500": 7429.31982421875,
-    "nasdaq": 25079.599609375,
-    "dow": 52189.421875,
-    "sentiment": -5.11,
+    "sp500": 7437.6298828125,
+    "nasdaq": 25122.1796875,
+    "dow": 52208.05859375,
+    "sentiment": 2.9,
     "sentimentLabel": "Neutral",
     "changes": {
-      "sp500": 1.55,
-      "nasdaq": 2.6,
-      "dow": 1.15
+      "sp500": 1.66,
+      "nasdaq": 2.78,
+      "dow": 1.19
     },
     "headline": "Major Indices Surge on Strong Market Sentiment",
-    "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails. NASDAQ led with +2.60% change."
+    "summary": "Mildly positive sentiment with modest gains. Market shows steady upward trend. NASDAQ led with +2.78% change."
+  },
+  {
+    "date": "2026-07-31",
+    "timestamp": "2026-07-31T00:00:00.000Z",
+    "sp500": 7484.47021484375,
+    "nasdaq": 25331.404296875,
+    "dow": 52525.80859375,
+    "sentiment": -4.93,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": 0.63,
+      "nasdaq": 0.83,
+      "dow": 0.61
+    },
+    "headline": "Markets Advance on Positive Trading Day",
+    "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails."
   }
 ]
