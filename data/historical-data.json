@@ -18405,7 +18405,7 @@
     "sp500": 7723.5498046875,
     "nasdaq": 26363.439453125,
     "dow": 54349.12109375,
-    "sentiment": 1.6,
+    "sentiment": 5.06,
     "sentimentLabel": "Neutral",
     "changes": {
       "sp500": -0.17,
@@ -18414,5 +18414,21 @@
     },
     "headline": "Markets Trade Flat Amid Mixed Signals",
     "summary": "Mixed signals: positive sentiment despite mixed index performance. Market shows resilience."
+  },
+  {
+    "date": "2026-08-06",
+    "timestamp": "2026-08-06T00:00:00.000Z",
+    "sp500": 7709.9599609375,
+    "nasdaq": 26348.3515625,
+    "dow": 53885.1015625,
+    "sentiment": -3.08,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": -0.18,
+      "nasdaq": -0.06,
+      "dow": -0.85
+    },
+    "headline": "Markets Dip Slightly in Quiet Session",
+    "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness."
   }
 ]
