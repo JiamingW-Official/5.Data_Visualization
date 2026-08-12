@@ -18466,17 +18466,33 @@
   {
     "date": "2026-08-11",
     "timestamp": "2026-08-11T00:00:00.000Z",
-    "sp500": 7729.419921875,
-    "nasdaq": 26440.705078125,
-    "dow": 53811.73828125,
-    "sentiment": -12.13,
+    "sp500": 7728.2001953125,
+    "nasdaq": 26445.44921875,
+    "dow": 53791.8515625,
+    "sentiment": -7.49,
     "sentimentLabel": "Neutral",
     "changes": {
-      "sp500": -0.31,
-      "nasdaq": -0.62,
-      "dow": -0.3
+      "sp500": -0.32,
+      "nasdaq": -0.6,
+      "dow": -0.34
     },
     "headline": "Markets Dip Slightly in Quiet Session",
     "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness."
+  },
+  {
+    "date": "2026-08-12",
+    "timestamp": "2026-08-12T00:00:00.000Z",
+    "sp500": 7751.52978515625,
+    "nasdaq": 26598.69140625,
+    "dow": 53828.01953125,
+    "sentiment": -8.9,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": 0.3,
+      "nasdaq": 0.58,
+      "dow": 0.07
+    },
+    "headline": "Markets Edge Higher in Cautious Trading",
+    "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails."
   }
 ]
