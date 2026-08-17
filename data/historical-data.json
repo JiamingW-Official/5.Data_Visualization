@@ -18514,17 +18514,33 @@
   {
     "date": "2026-08-14",
     "timestamp": "2026-08-14T00:00:00.000Z",
-    "sp500": 7783.83984375,
-    "nasdaq": 26699.591796875,
-    "dow": 53771.671875,
-    "sentiment": -10.15,
+    "sp500": 7785.759765625,
+    "nasdaq": 26729.16015625,
+    "dow": 53732.41015625,
+    "sentiment": -6.24,
     "sentimentLabel": "Neutral",
     "changes": {
-      "sp500": -0.19,
-      "nasdaq": -0.39,
-      "dow": -0.13
+      "sp500": -0.17,
+      "nasdaq": -0.28,
+      "dow": -0.2
     },
     "headline": "Markets Trade Flat Amid Mixed Signals",
+    "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness."
+  },
+  {
+    "date": "2026-08-17",
+    "timestamp": "2026-08-17T00:00:00.000Z",
+    "sp500": 7754.14013671875,
+    "nasdaq": 26661.20703125,
+    "dow": 53492.69140625,
+    "sentiment": -10.49,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": -0.41,
+      "nasdaq": -0.25,
+      "dow": -0.45
+    },
+    "headline": "Markets Dip Slightly in Quiet Session",
     "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness."
   }
 ]
