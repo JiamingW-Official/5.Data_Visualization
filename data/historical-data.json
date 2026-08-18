@@ -18227,29 +18227,29 @@
     "date": "2026-07-21",
     "timestamp": "2026-07-21T00:00:00.000Z",
     "sp500": 7509.2001953125,
-    "nasdaq": 25837.2109375,
+    "nasdaq": 25137.689453125,
     "dow": 52224.640625,
-    "sentiment": -4.89,
+    "sentiment": -9.69,
     "sentimentLabel": "Neutral",
     "changes": {
       "sp500": 0.89,
-      "nasdaq": 1.29,
+      "nasdaq": -1.45,
       "dow": 0.74
     },
-    "headline": "Markets Advance on Positive Trading Day",
-    "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails. NASDAQ led with +1.29% change."
+    "headline": "Markets Trade Flat Amid Mixed Signals",
+    "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails. S&P 500 led with +0.89% change."
   },
   {
     "date": "2026-07-22",
     "timestamp": "2026-07-22T00:00:00.000Z",
     "sp500": 7498.9599609375,
-    "nasdaq": 25690.900390625,
+    "nasdaq": 24975.8203125,
     "dow": 52218.578125,
-    "sentiment": -8.85,
+    "sentiment": -10.82,
     "sentimentLabel": "Neutral",
     "changes": {
       "sp500": -0.14,
-      "nasdaq": -0.57,
+      "nasdaq": -0.64,
       "dow": -0.01
     },
     "headline": "Markets Trade Flat Amid Mixed Signals",
@@ -18259,157 +18259,157 @@
     "date": "2026-07-23",
     "timestamp": "2026-07-23T00:00:00.000Z",
     "sp500": 7408.2998046875,
-    "nasdaq": 25137.689453125,
+    "nasdaq": 24932.080078125,
     "dow": 51711.6484375,
-    "sentiment": -12.88,
+    "sentiment": -11.22,
     "sentimentLabel": "Neutral",
     "changes": {
       "sp500": -1.21,
-      "nasdaq": -2.15,
+      "nasdaq": -0.18,
       "dow": -0.97
     },
     "headline": "Markets Decline on Negative Sentiment",
-    "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness. Dow Jones led with -0.97% change."
+    "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness. NASDAQ led with -0.18% change."
   },
   {
     "date": "2026-07-24",
     "timestamp": "2026-07-24T00:00:00.000Z",
     "sp500": 7411.97998046875,
-    "nasdaq": 24975.8203125,
+    "nasdaq": 24876.91015625,
     "dow": 51947.25,
-    "sentiment": -8.67,
+    "sentiment": -7.69,
     "sentimentLabel": "Neutral",
     "changes": {
       "sp500": 0.05,
-      "nasdaq": -0.64,
+      "nasdaq": -0.22,
       "dow": 0.46
-    },
-    "headline": "Markets Trade Flat Amid Mixed Signals",
-    "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness."
-  },
-  {
-    "date": "2026-07-27",
-    "timestamp": "2026-07-27T00:00:00.000Z",
-    "sp500": 7413.18017578125,
-    "nasdaq": 24932.080078125,
-    "dow": 52210.078125,
-    "sentiment": -6.01,
-    "sentimentLabel": "Neutral",
-    "changes": {
-      "sp500": 0.02,
-      "nasdaq": -0.18,
-      "dow": 0.51
     },
     "headline": "Markets Trade Flat Amid Mixed Signals",
     "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails."
   },
   {
+    "date": "2026-07-27",
+    "timestamp": "2026-07-27T00:00:00.000Z",
+    "sp500": 7413.18017578125,
+    "nasdaq": 24442.939453125,
+    "dow": 52210.078125,
+    "sentiment": -8.63,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": 0.02,
+      "nasdaq": -1.74,
+      "dow": 0.51
+    },
+    "headline": "Markets Dip Slightly in Quiet Session",
+    "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness. Dow Jones led with +0.51% change."
+  },
+  {
     "date": "2026-07-28",
     "timestamp": "2026-07-28T00:00:00.000Z",
     "sp500": 7428.77978515625,
-    "nasdaq": 24876.91015625,
+    "nasdaq": 25122.1796875,
     "dow": 52747.3203125,
-    "sentiment": -5.27,
+    "sentiment": -0.08,
     "sentimentLabel": "Neutral",
     "changes": {
       "sp500": 0.21,
-      "nasdaq": -0.22,
+      "nasdaq": 2.78,
       "dow": 1.03
     },
-    "headline": "Markets Edge Higher in Cautious Trading",
-    "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails. Dow Jones led with +1.03% change."
+    "headline": "Markets Advance on Positive Trading Day",
+    "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails. NASDAQ led with +2.78% change."
   },
   {
     "date": "2026-07-29",
     "timestamp": "2026-07-29T00:00:00.000Z",
     "sp500": 7316.14990234375,
-    "nasdaq": 24442.939453125,
+    "nasdaq": 25913.900390625,
     "dow": 51594.140625,
-    "sentiment": -14.7,
+    "sentiment": -2.93,
     "sentimentLabel": "Neutral",
     "changes": {
       "sp500": -1.52,
-      "nasdaq": -1.74,
+      "nasdaq": 3.15,
       "dow": -2.19
     },
-    "headline": "Major Indices Fall Sharply Amid Concerns",
-    "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness. S&P 500 led with -1.52% change."
+    "headline": "Markets Trade Flat Amid Mixed Signals",
+    "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness. NASDAQ led with +3.15% change."
   },
   {
     "date": "2026-07-30",
     "timestamp": "2026-07-30T00:00:00.000Z",
     "sp500": 7437.6298828125,
-    "nasdaq": 25122.1796875,
+    "nasdaq": 26584.990234375,
     "dow": 52208.05859375,
-    "sentiment": 2.9,
+    "sentiment": 7.04,
     "sentimentLabel": "Neutral",
     "changes": {
       "sp500": 1.66,
-      "nasdaq": 2.78,
-      "dow": 1.19
-    },
-    "headline": "Major Indices Surge on Strong Market Sentiment",
-    "summary": "Mildly positive sentiment with modest gains. Market shows steady upward trend. NASDAQ led with +2.78% change."
-  },
-  {
-    "date": "2026-07-31",
-    "timestamp": "2026-07-31T00:00:00.000Z",
-    "sp500": 7489.72021484375,
-    "nasdaq": 25373.849609375,
-    "dow": 52485.03125,
-    "sentiment": 2.92,
-    "sentimentLabel": "Neutral",
-    "changes": {
-      "sp500": 0.7,
-      "nasdaq": 1,
-      "dow": 0.53
-    },
-    "headline": "Markets Advance on Positive Trading Day",
-    "summary": "Mildly positive sentiment with modest gains. Market shows steady upward trend. NASDAQ led with +1.00% change."
-  },
-  {
-    "date": "2026-08-03",
-    "timestamp": "2026-08-03T00:00:00.000Z",
-    "sp500": 7600.5,
-    "nasdaq": 25913.900390625,
-    "dow": 53178.41015625,
-    "sentiment": 6.44,
-    "sentimentLabel": "Neutral",
-    "changes": {
-      "sp500": 1.48,
-      "nasdaq": 2.13,
-      "dow": 1.32
-    },
-    "headline": "Major Indices Surge on Strong Market Sentiment",
-    "summary": "Mildly positive sentiment with modest gains. Market shows steady upward trend. NASDAQ led with +2.13% change."
-  },
-  {
-    "date": "2026-08-04",
-    "timestamp": "2026-08-04T00:00:00.000Z",
-    "sp500": 7736.52001953125,
-    "nasdaq": 26584.990234375,
-    "dow": 54085.87890625,
-    "sentiment": 11.13,
-    "sentimentLabel": "Neutral",
-    "changes": {
-      "sp500": 1.79,
       "nasdaq": 2.59,
-      "dow": 1.71
+      "dow": 1.19
     },
     "headline": "Major Indices Surge on Strong Market Sentiment",
     "summary": "Mildly positive sentiment with modest gains. Market shows steady upward trend. NASDAQ led with +2.59% change."
   },
   {
+    "date": "2026-07-31",
+    "timestamp": "2026-07-31T00:00:00.000Z",
+    "sp500": 7489.72021484375,
+    "nasdaq": 26363.439453125,
+    "dow": 52485.03125,
+    "sentiment": 1.76,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": 0.7,
+      "nasdaq": -0.83,
+      "dow": 0.53
+    },
+    "headline": "Markets Trade Flat Amid Mixed Signals",
+    "summary": "Mildly positive sentiment with modest gains. Market shows steady upward trend."
+  },
+  {
+    "date": "2026-08-03",
+    "timestamp": "2026-08-03T00:00:00.000Z",
+    "sp500": 7600.5,
+    "nasdaq": 26348.349609375,
+    "dow": 53178.41015625,
+    "sentiment": 4.76,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": 1.48,
+      "nasdaq": -0.06,
+      "dow": 1.32
+    },
+    "headline": "Markets Advance on Positive Trading Day",
+    "summary": "Mildly positive sentiment with modest gains. Market shows steady upward trend. S&P 500 led with +1.48% change."
+  },
+  {
+    "date": "2026-08-04",
+    "timestamp": "2026-08-04T00:00:00.000Z",
+    "sp500": 7736.52001953125,
+    "nasdaq": 26690.619140625,
+    "dow": 54085.87890625,
+    "sentiment": 8.65,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": 1.79,
+      "nasdaq": 1.3,
+      "dow": 1.71
+    },
+    "headline": "Major Indices Surge on Strong Market Sentiment",
+    "summary": "Mildly positive sentiment with modest gains. Market shows steady upward trend. S&P 500 led with +1.79% change."
+  },
+  {
     "date": "2026-08-05",
     "timestamp": "2026-08-05T00:00:00.000Z",
     "sp500": 7723.5498046875,
-    "nasdaq": 26363.439453125,
+    "nasdaq": 26605.359375,
     "dow": 54349.12109375,
-    "sentiment": 5.06,
+    "sentiment": 2.69,
     "sentimentLabel": "Neutral",
     "changes": {
       "sp500": -0.17,
-      "nasdaq": -0.83,
+      "nasdaq": -0.32,
       "dow": 0.49
     },
     "headline": "Markets Trade Flat Amid Mixed Signals",
@@ -18419,61 +18419,61 @@
     "date": "2026-08-06",
     "timestamp": "2026-08-06T00:00:00.000Z",
     "sp500": 7709.9599609375,
-    "nasdaq": 26348.349609375,
+    "nasdaq": 26445.44921875,
     "dow": 53885.1015625,
-    "sentiment": -0.06,
+    "sentiment": -3.59,
     "sentimentLabel": "Neutral",
     "changes": {
       "sp500": -0.18,
-      "nasdaq": -0.06,
+      "nasdaq": -0.6,
       "dow": -0.85
     },
-    "headline": "Markets Dip Slightly in Quiet Session",
+    "headline": "Markets Decline on Negative Sentiment",
     "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness."
   },
   {
     "date": "2026-08-07",
     "timestamp": "2026-08-07T00:00:00.000Z",
     "sp500": 7757.64013671875,
-    "nasdaq": 26690.619140625,
+    "nasdaq": 26588.490234375,
     "dow": 54036.9296875,
-    "sentiment": 2.24,
+    "sentiment": -0.6,
     "sentimentLabel": "Neutral",
     "changes": {
       "sp500": 0.62,
-      "nasdaq": 1.3,
+      "nasdaq": 0.54,
       "dow": 0.28
     },
-    "headline": "Markets Advance on Positive Trading Day",
-    "summary": "Mildly positive sentiment with modest gains. Market shows steady upward trend. NASDAQ led with +1.30% change."
+    "headline": "Markets Edge Higher in Cautious Trading",
+    "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails."
   },
   {
     "date": "2026-08-10",
     "timestamp": "2026-08-10T00:00:00.000Z",
     "sp500": 7753.10986328125,
-    "nasdaq": 26605.359375,
+    "nasdaq": 26803.029296875,
     "dow": 53975.98046875,
-    "sentiment": -2.67,
+    "sentiment": -1.19,
     "sentimentLabel": "Neutral",
     "changes": {
       "sp500": -0.06,
-      "nasdaq": -0.32,
+      "nasdaq": 0.81,
       "dow": -0.11
     },
     "headline": "Markets Trade Flat Amid Mixed Signals",
-    "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness."
+    "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails."
   },
   {
     "date": "2026-08-11",
     "timestamp": "2026-08-11T00:00:00.000Z",
     "sp500": 7728.2001953125,
-    "nasdaq": 26445.44921875,
+    "nasdaq": 26729.16015625,
     "dow": 53791.8515625,
-    "sentiment": -7.49,
+    "sentiment": -6.81,
     "sentimentLabel": "Neutral",
     "changes": {
       "sp500": -0.32,
-      "nasdaq": -0.6,
+      "nasdaq": -0.28,
       "dow": -0.34
     },
     "headline": "Markets Dip Slightly in Quiet Session",
@@ -18483,64 +18483,80 @@
     "date": "2026-08-12",
     "timestamp": "2026-08-12T00:00:00.000Z",
     "sp500": 7748.5,
-    "nasdaq": 26588.490234375,
+    "nasdaq": 26644.91015625,
     "dow": 53770.26953125,
-    "sentiment": -4.58,
+    "sentiment": -5.77,
     "sentimentLabel": "Neutral",
     "changes": {
       "sp500": 0.26,
-      "nasdaq": 0.54,
+      "nasdaq": -0.32,
       "dow": -0.04
-    },
-    "headline": "Markets Trade Flat Amid Mixed Signals",
-    "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails."
-  },
-  {
-    "date": "2026-08-13",
-    "timestamp": "2026-08-13T00:00:00.000Z",
-    "sp500": 7798.990234375,
-    "nasdaq": 26803.029296875,
-    "dow": 53839.98828125,
-    "sentiment": -1.05,
-    "sentimentLabel": "Neutral",
-    "changes": {
-      "sp500": 0.65,
-      "nasdaq": 0.81,
-      "dow": 0.13
-    },
-    "headline": "Markets Advance on Positive Trading Day",
-    "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails."
-  },
-  {
-    "date": "2026-08-14",
-    "timestamp": "2026-08-14T00:00:00.000Z",
-    "sp500": 7785.759765625,
-    "nasdaq": 26729.16015625,
-    "dow": 53732.41015625,
-    "sentiment": -6.24,
-    "sentimentLabel": "Neutral",
-    "changes": {
-      "sp500": -0.17,
-      "nasdaq": -0.28,
-      "dow": -0.2
     },
     "headline": "Markets Trade Flat Amid Mixed Signals",
     "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness."
   },
   {
-    "date": "2026-08-17",
-    "timestamp": "2026-08-17T00:00:00.000Z",
-    "sp500": 7754.14013671875,
-    "nasdaq": 26661.20703125,
-    "dow": 53492.69140625,
-    "sentiment": -10.49,
+    "date": "2026-08-13",
+    "timestamp": "2026-08-13T00:00:00.000Z",
+    "sp500": 7798.990234375,
+    "nasdaq": 26291.947265625,
+    "dow": 53839.98828125,
+    "sentiment": -6.92,
     "sentimentLabel": "Neutral",
     "changes": {
-      "sp500": -0.41,
-      "nasdaq": -0.25,
-      "dow": -0.45
+      "sp500": 0.65,
+      "nasdaq": -1.32,
+      "dow": 0.13
+    },
+    "headline": "Markets Trade Flat Amid Mixed Signals",
+    "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness. S&P 500 led with +0.65% change."
+  },
+  {
+    "date": "2026-08-14",
+    "timestamp": "2026-08-14T00:00:00.000Z",
+    "sp500": 7785.759765625,
+    "nasdaq": 0,
+    "dow": 53732.41015625,
+    "sentiment": -9.82,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": -0.17,
+      "nasdaq": null,
+      "dow": -0.2
+    },
+    "headline": "Major Indices Fall Sharply Amid Concerns",
+    "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness."
+  },
+  {
+    "date": "2026-08-17",
+    "timestamp": "2026-08-17T00:00:00.000Z",
+    "sp500": 7745.06005859375,
+    "nasdaq": 0,
+    "dow": 53459.78125,
+    "sentiment": -9.61,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": -0.52,
+      "nasdaq": 0,
+      "dow": -0.51
     },
     "headline": "Markets Dip Slightly in Quiet Session",
+    "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness."
+  },
+  {
+    "date": "2026-08-18",
+    "timestamp": "2026-08-18T00:00:00.000Z",
+    "sp500": 7697.14013671875,
+    "nasdaq": 0,
+    "dow": 53369.5703125,
+    "sentiment": -13.64,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": -0.62,
+      "nasdaq": 0,
+      "dow": -0.17
+    },
+    "headline": "Markets Trade Flat Amid Mixed Signals",
     "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness."
   }
 ]
