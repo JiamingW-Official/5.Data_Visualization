@@ -18514,17 +18514,33 @@
   {
     "date": "2026-08-19",
     "timestamp": "2026-08-19T00:00:00.000Z",
-    "sp500": 7716.22021484375,
-    "nasdaq": 26340.662109375,
-    "dow": 53443.08984375,
-    "sentiment": -9.7,
+    "sp500": 7707.97998046875,
+    "nasdaq": 26331.08984375,
+    "dow": 53463.05078125,
+    "sentiment": -3.48,
     "sentimentLabel": "Neutral",
     "changes": {
-      "sp500": 0.32,
-      "nasdaq": 0.19,
-      "dow": 0.19
+      "sp500": 0.21,
+      "nasdaq": 0.16,
+      "dow": 0.22
     },
     "headline": "Markets Trade Flat Amid Mixed Signals",
     "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails."
+  },
+  {
+    "date": "2026-08-20",
+    "timestamp": "2026-08-20T00:00:00.000Z",
+    "sp500": 7654.7900390625,
+    "nasdaq": 26078.29296875,
+    "dow": 52824.6484375,
+    "sentiment": -15.25,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": -0.69,
+      "nasdaq": -0.96,
+      "dow": -1.19
+    },
+    "headline": "Markets Decline on Negative Sentiment",
+    "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness. S&P 500 led with -0.69% change."
   }
 ]
