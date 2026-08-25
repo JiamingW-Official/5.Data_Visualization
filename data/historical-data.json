@@ -18610,17 +18610,33 @@
   {
     "date": "2026-08-24",
     "timestamp": "2026-08-24T00:00:00.000Z",
-    "sp500": 7658.02001953125,
-    "nasdaq": 26029.06640625,
-    "dow": 53442.62109375,
-    "sentiment": -12.06,
+    "sp500": 7652.85986328125,
+    "nasdaq": 25980.189453125,
+    "dow": 53417.16015625,
+    "sentiment": -7.57,
     "sentimentLabel": "Neutral",
     "changes": {
-      "sp500": -0.21,
-      "nasdaq": -0.58,
-      "dow": 0.31
+      "sp500": -0.28,
+      "nasdaq": -0.76,
+      "dow": 0.26
     },
     "headline": "Markets Trade Flat Amid Mixed Signals",
     "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness."
+  },
+  {
+    "date": "2026-08-25",
+    "timestamp": "2026-08-25T00:00:00.000Z",
+    "sp500": 7672.2099609375,
+    "nasdaq": 26116.138671875,
+    "dow": 53556.69140625,
+    "sentiment": -9.03,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": 0.25,
+      "nasdaq": 0.52,
+      "dow": 0.26
+    },
+    "headline": "Markets Edge Higher in Cautious Trading",
+    "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails."
   }
 ]
