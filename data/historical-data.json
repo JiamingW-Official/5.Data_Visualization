@@ -18707,9 +18707,9 @@
     "date": "2026-09-01",
     "timestamp": "2026-09-01T00:00:00.000Z",
     "sp500": 7631.47021484375,
-    "nasdaq": 26099.7734375,
+    "nasdaq": 26099.76953125,
     "dow": 52766.87890625,
-    "sentiment": -13.48,
+    "sentiment": -10.25,
     "sentimentLabel": "Neutral",
     "changes": {
       "sp500": -0.71,
@@ -18718,5 +18718,21 @@
     },
     "headline": "Markets Decline on Negative Sentiment",
     "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness. S&P 500 led with -0.71% change."
+  },
+  {
+    "date": "2026-09-02",
+    "timestamp": "2026-09-02T00:00:00.000Z",
+    "sp500": 7666.60009765625,
+    "nasdaq": 26217.828125,
+    "dow": 53061.94921875,
+    "sentiment": -7.66,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": 0.46,
+      "nasdaq": 0.45,
+      "dow": 0.56
+    },
+    "headline": "Markets Edge Higher in Cautious Trading",
+    "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails."
   }
 ]
