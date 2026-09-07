@@ -1,18 +1,18 @@
 {
-  "timestamp": "2026-09-04T20:54:48.628Z",
+  "timestamp": "2026-09-07T21:41:44.162Z",
   "date": "2026-09-04",
   "sentiment": {
-    "score": -10.88,
+    "score": -8.23,
     "label": "Neutral",
     "indices": {
       "sp500": {
-        "score": -12.91,
+        "score": -7.92,
         "label": "Neutral",
         "current": 7718.60009765625,
         "change": -0.38
       },
       "nasdaq": {
-        "score": -9.71,
+        "score": -7.85,
         "label": "Neutral",
         "current": 26506.990234375,
         "change": -0.29
