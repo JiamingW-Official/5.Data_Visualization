@@ -18766,5 +18766,21 @@
     },
     "headline": "Markets Dip Slightly in Quiet Session",
     "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness."
+  },
+  {
+    "date": "2026-09-08",
+    "timestamp": "2026-09-08T00:00:00.000Z",
+    "sp500": 7673.52001953125,
+    "nasdaq": 26421.412109375,
+    "dow": 52786.0703125,
+    "sentiment": -10.59,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": -0.58,
+      "nasdaq": -0.32,
+      "dow": -1.18
+    },
+    "headline": "Markets Decline on Negative Sentiment",
+    "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness. NASDAQ led with -0.32% change."
   }
 ]
