@@ -18789,12 +18789,28 @@
     "sp500": 7636.35986328125,
     "nasdaq": 26253.33984375,
     "dow": 52380.66015625,
-    "sentiment": -10.88,
+    "sentiment": -7.59,
     "sentimentLabel": "Neutral",
     "changes": {
       "sp500": -0.48,
       "nasdaq": -0.64,
       "dow": -0.77
+    },
+    "headline": "Markets Decline on Negative Sentiment",
+    "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness."
+  },
+  {
+    "date": "2026-09-10",
+    "timestamp": "2026-09-10T00:00:00.000Z",
+    "sp500": 7591.7001953125,
+    "nasdaq": 26081.724609375,
+    "dow": 52064.1015625,
+    "sentiment": -12.99,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": -0.58,
+      "nasdaq": -0.65,
+      "dow": -0.6
     },
     "headline": "Markets Decline on Negative Sentiment",
     "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness."
