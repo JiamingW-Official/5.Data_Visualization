@@ -18819,9 +18819,9 @@
     "date": "2026-09-11",
     "timestamp": "2026-09-11T00:00:00.000Z",
     "sp500": 7656.97998046875,
-    "nasdaq": 26333.03515625,
+    "nasdaq": 26333.0390625,
     "dow": 52573.2890625,
-    "sentiment": -9.38,
+    "sentiment": -6.13,
     "sentimentLabel": "Neutral",
     "changes": {
       "sp500": 0.86,
@@ -18830,5 +18830,21 @@
     },
     "headline": "Markets Advance on Positive Trading Day",
     "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails."
+  },
+  {
+    "date": "2026-09-14",
+    "timestamp": "2026-09-14T00:00:00.000Z",
+    "sp500": 7619.97998046875,
+    "nasdaq": 26186.4140625,
+    "dow": 52421.19921875,
+    "sentiment": -12.35,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": -0.48,
+      "nasdaq": -0.56,
+      "dow": -0.29
+    },
+    "headline": "Markets Dip Slightly in Quiet Session",
+    "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness."
   }
 ]
