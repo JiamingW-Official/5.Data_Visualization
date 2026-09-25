@@ -18928,6 +18928,22 @@
     "summary": "Mildly positive sentiment with modest gains. Market shows steady upward trend. NASDAQ led with +2.26% change."
   },
   {
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T00:00:00.000Z",
+    "sp500": 7764.64013671875,
+    "nasdaq": 27244.279296875,
+    "dow": 51863.69140625,
+    "sentiment": 0.44,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": 0,
+      "nasdaq": 0.45,
+      "dow": -0.36
+    },
+    "headline": "Markets Trade Flat Amid Mixed Signals",
+    "summary": "Mildly positive sentiment with modest gains. Market shows steady upward trend."
+  },
+  {
     "date": "2026-09-23",
     "timestamp": "2026-09-23T00:00:00.000Z",
     "sp500": 7706.02978515625,
@@ -18936,20 +18952,20 @@
     "sentiment": -4.67,
     "sentimentLabel": "Neutral",
     "changes": {
-      "sp500": -0.76,
-      "nasdaq": -0.69,
-      "dow": -1.03
+      "sp500": -0.75,
+      "nasdaq": -1.13,
+      "dow": -0.68
     },
     "headline": "Markets Decline on Negative Sentiment",
-    "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness. NASDAQ led with -0.69% change."
+    "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness. Dow Jones led with -0.68% change."
   },
   {
     "date": "2026-09-24",
     "timestamp": "2026-09-24T00:00:00.000Z",
     "sp500": 7704.1298828125,
-    "nasdaq": 26939.373046875,
+    "nasdaq": 26939.369140625,
     "dow": 51349.98046875,
-    "sentiment": -6.13,
+    "sentiment": -4.36,
     "sentimentLabel": "Neutral",
     "changes": {
       "sp500": -0.02,
@@ -18958,5 +18974,21 @@
     },
     "headline": "Markets Trade Flat Amid Mixed Signals",
     "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness."
+  },
+  {
+    "date": "2026-09-25",
+    "timestamp": "2026-09-25T00:00:00.000Z",
+    "sp500": 7743.41015625,
+    "nasdaq": 27068.716796875,
+    "dow": 51828.62109375,
+    "sentiment": -6.03,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": 0.51,
+      "nasdaq": 0.48,
+      "dow": 0.93
+    },
+    "headline": "Markets Advance on Positive Trading Day",
+    "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails."
   }
 ]
