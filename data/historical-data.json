@@ -19059,9 +19059,9 @@
     "date": "2026-10-02",
     "timestamp": "2026-10-02T00:00:00.000Z",
     "sp500": 7722.72021484375,
-    "nasdaq": 27190.86328125,
+    "nasdaq": 27190.859375,
     "dow": 51176.9609375,
-    "sentiment": -5.34,
+    "sentiment": -2.25,
     "sentimentLabel": "Neutral",
     "changes": {
       "sp500": 0.73,
@@ -19070,5 +19070,21 @@
     },
     "headline": "Markets Advance on Positive Trading Day",
     "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails. NASDAQ led with +1.19% change."
+  },
+  {
+    "date": "2026-10-05",
+    "timestamp": "2026-10-05T00:00:00.000Z",
+    "sp500": 7773.9501953125,
+    "nasdaq": 27477.310546875,
+    "dow": 51267.8984375,
+    "sentiment": -3.58,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": 0.66,
+      "nasdaq": 1.05,
+      "dow": 0.18
+    },
+    "headline": "Markets Advance on Positive Trading Day",
+    "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails. NASDAQ led with +1.05% change."
   }
 ]
