@@ -19413,7 +19413,7 @@
     "sp500": 7568.919921875,
     "nasdaq": 25372.009765625,
     "dow": 51786.71875,
-    "sentiment": -12.38,
+    "sentiment": -9.3,
     "sentimentLabel": "Neutral",
     "changes": {
       "sp500": 0.36,
@@ -19422,5 +19422,21 @@
     },
     "headline": "Markets Trade Flat Amid Mixed Signals",
     "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails."
+  },
+  {
+    "date": "2026-11-04",
+    "timestamp": "2026-11-04T00:00:00.000Z",
+    "sp500": 7688.6201171875,
+    "nasdaq": 25736.513671875,
+    "dow": 53356.12109375,
+    "sentiment": -0.28,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": 1.58,
+      "nasdaq": 1.44,
+      "dow": 3.03
+    },
+    "headline": "Major Indices Surge on Strong Market Sentiment",
+    "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails. Dow Jones led with +3.03% change."
   }
 ]
