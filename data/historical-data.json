@@ -19427,9 +19427,9 @@
     "date": "2026-11-04",
     "timestamp": "2026-11-04T00:00:00.000Z",
     "sp500": 7688.6201171875,
-    "nasdaq": 25736.513671875,
+    "nasdaq": 25736.509765625,
     "dow": 53356.12109375,
-    "sentiment": -0.28,
+    "sentiment": 3.5,
     "sentimentLabel": "Neutral",
     "changes": {
       "sp500": 1.58,
@@ -19437,6 +19437,22 @@
       "dow": 3.03
     },
     "headline": "Major Indices Surge on Strong Market Sentiment",
-    "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails. Dow Jones led with +3.03% change."
+    "summary": "Mildly positive sentiment with modest gains. Market shows steady upward trend. Dow Jones led with +3.03% change."
+  },
+  {
+    "date": "2026-11-05",
+    "timestamp": "2026-11-05T00:00:00.000Z",
+    "sp500": 7353.72998046875,
+    "nasdaq": 24314.998046875,
+    "dow": 51523.05859375,
+    "sentiment": -24.91,
+    "sentimentLabel": "Bearish",
+    "changes": {
+      "sp500": -4.36,
+      "nasdaq": -5.52,
+      "dow": -3.44
+    },
+    "headline": "Major Indices Fall Sharply Amid Concerns",
+    "summary": "Negative sentiment with losses in major indices. Investors show caution. Dow Jones led with -3.44% change."
   }
 ]
