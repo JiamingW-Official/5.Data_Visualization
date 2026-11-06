@@ -19443,9 +19443,9 @@
     "date": "2026-11-05",
     "timestamp": "2026-11-05T00:00:00.000Z",
     "sp500": 7353.72998046875,
-    "nasdaq": 24314.998046875,
+    "nasdaq": 24315,
     "dow": 51523.05859375,
-    "sentiment": -24.91,
+    "sentiment": -21.26,
     "sentimentLabel": "Bearish",
     "changes": {
       "sp500": -4.36,
@@ -19454,5 +19454,21 @@
     },
     "headline": "Major Indices Fall Sharply Amid Concerns",
     "summary": "Negative sentiment with losses in major indices. Investors show caution. Dow Jones led with -3.44% change."
+  },
+  {
+    "date": "2026-11-06",
+    "timestamp": "2026-11-06T00:00:00.000Z",
+    "sp500": 7376.85986328125,
+    "nasdaq": 24579.423828125,
+    "dow": 51285.73046875,
+    "sentiment": -11.89,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": 0.31,
+      "nasdaq": 1.09,
+      "dow": -0.46
+    },
+    "headline": "Markets Edge Higher in Cautious Trading",
+    "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails. NASDAQ led with +1.09% change."
   }
 ]
