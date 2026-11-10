@@ -19475,9 +19475,9 @@
     "date": "2026-11-09",
     "timestamp": "2026-11-09T00:00:00.000Z",
     "sp500": 7549.93994140625,
-    "nasdaq": 25253.138671875,
+    "nasdaq": 25253.140625,
     "dow": 52389.75,
-    "sentiment": -0.08,
+    "sentiment": 2.87,
     "sentimentLabel": "Neutral",
     "changes": {
       "sp500": 2.35,
@@ -19485,6 +19485,22 @@
       "dow": 2.15
     },
     "headline": "Major Indices Surge on Strong Market Sentiment",
-    "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails. NASDAQ led with +2.74% change."
+    "summary": "Mildly positive sentiment with modest gains. Market shows steady upward trend. NASDAQ led with +2.74% change."
+  },
+  {
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T00:00:00.000Z",
+    "sp500": 7520.93017578125,
+    "nasdaq": 25065.875,
+    "dow": 52231.890625,
+    "sentiment": -11.59,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": -0.38,
+      "nasdaq": -0.74,
+      "dow": -0.3
+    },
+    "headline": "Markets Dip Slightly in Quiet Session",
+    "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness."
   }
 ]
