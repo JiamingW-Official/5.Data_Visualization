@@ -19491,9 +19491,9 @@
     "date": "2026-11-10",
     "timestamp": "2026-11-10T00:00:00.000Z",
     "sp500": 7520.93017578125,
-    "nasdaq": 25065.875,
+    "nasdaq": 25065.869140625,
     "dow": 52231.890625,
-    "sentiment": -11.59,
+    "sentiment": -9.14,
     "sentimentLabel": "Neutral",
     "changes": {
       "sp500": -0.38,
@@ -19502,5 +19502,21 @@
     },
     "headline": "Markets Dip Slightly in Quiet Session",
     "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness."
+  },
+  {
+    "date": "2026-11-11",
+    "timestamp": "2026-11-11T00:00:00.000Z",
+    "sp500": 7619.3798828125,
+    "nasdaq": 25466.189453125,
+    "dow": 52486.48828125,
+    "sentiment": -5.69,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": 1.31,
+      "nasdaq": 1.6,
+      "dow": 0.49
+    },
+    "headline": "Markets Advance on Positive Trading Day",
+    "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails. NASDAQ led with +1.60% change."
   }
 ]
