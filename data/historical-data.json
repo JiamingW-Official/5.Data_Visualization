@@ -19605,7 +19605,7 @@
     "sp500": 7175.830078125,
     "nasdaq": 23879.19921875,
     "dow": 49097.05859375,
-    "sentiment": -25,
+    "sentiment": -21.35,
     "sentimentLabel": "Bearish",
     "changes": {
       "sp500": -2.02,
@@ -19614,5 +19614,21 @@
     },
     "headline": "Major Indices Fall Sharply Amid Concerns",
     "summary": "Negative sentiment with losses in major indices. Investors show caution. S&P 500 led with -2.02% change."
+  },
+  {
+    "date": "2026-11-20",
+    "timestamp": "2026-11-20T00:00:00.000Z",
+    "sp500": 6910.39013671875,
+    "nasdaq": 22617.732421875,
+    "dow": 48147.328125,
+    "sentiment": -32.05,
+    "sentimentLabel": "Bearish",
+    "changes": {
+      "sp500": -3.7,
+      "nasdaq": -5.28,
+      "dow": -1.93
+    },
+    "headline": "Major Indices Fall Sharply Amid Concerns",
+    "summary": "Negative sentiment with losses in major indices. Investors show caution. Dow Jones led with -1.93% change."
   }
 ]
