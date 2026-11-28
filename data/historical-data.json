@@ -19678,5 +19678,21 @@
     },
     "headline": "Markets Trade Flat Amid Mixed Signals",
     "summary": "Mildly negative sentiment with modest declines. Market shows slight weakness."
+  },
+  {
+    "date": "2026-11-27",
+    "timestamp": "2026-11-27T00:00:00.000Z",
+    "sp500": 7297.490234375,
+    "nasdaq": 24129.5,
+    "dow": 50774.94140625,
+    "sentiment": -8.24,
+    "sentimentLabel": "Neutral",
+    "changes": {
+      "sp500": 1.6,
+      "nasdaq": 2.31,
+      "dow": 1.18
+    },
+    "headline": "Major Indices Surge on Strong Market Sentiment",
+    "summary": "Mixed market signals: negative sentiment despite some index gains. Uncertainty prevails. NASDAQ led with +2.31% change."
   }
 ]
